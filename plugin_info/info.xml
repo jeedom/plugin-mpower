@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+    <id>mpower</id>
+    <name>Mpower</name>
+    <description>Plugin pour controller les équipements Mpower</description>
+    <icon>icon techno-prise-eco</icon>
+    <licence>AGPL</licence>
+    <author>Ludovic SARAKHA</author>
+    <installation>Aucune</installation>
+    <require>2.2</require>
+    <version>1.0</version>
+    <category>energy</category>
+</info>
+
