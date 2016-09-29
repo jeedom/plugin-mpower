@@ -929,9 +929,7 @@ class mpower extends eqLogic {
 				$replace['#' . $cmd->getLogicalId() . '_id#'] = $cmd->getId();
 			}
 		}
-		$html = template_replace($replace, getTemplate('core', $version, strtolower($this->getConfiguration('model')), 'mpower'));
-		cache::set('widgetHtml' . $version . $this->getId(), $html, 0);
-		return $html;
+		return $this->postToHtml($_version, template_replace($replace, getTemplate('core', $version, trtolower($this->getConfiguration('model')), 'mpower')));
 	}
 }
 

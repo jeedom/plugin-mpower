@@ -1,0 +1,10 @@
+{
+    "id": "mpower",
+    "name" : "Mpower",
+    "description" : "Plugin pour controller les équipements Mpower",
+    "licence" : "AGPL",
+    "author" : "Ludovic SARAKHA",
+    "require" : "2.4",
+    "category" : "energy"
+}
+
