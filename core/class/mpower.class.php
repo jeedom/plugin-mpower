@@ -80,6 +80,7 @@ class mpower extends eqLogic {
                 if (is_object($statecmd)) {
                     if ($statecmd->execCmd() == null || $statecmd->execCmd() != $output) {
 						$changed = true;
+						$statecmd->setCollectDate('');
                         $statecmd->event($output);
                     }
                 }
@@ -87,6 +88,7 @@ class mpower extends eqLogic {
                 if (is_object($powercmd)) {
                     if ($powercmd->execCmd() == null || $powercmd->execCmd() != $power) {
 						$changed = true;
+						$powercmd->setCollectDate('');
                         $powercmd->event($power);
                     }
                 }
@@ -94,6 +96,7 @@ class mpower extends eqLogic {
                 if (is_object($voltagecmd)) {
                     if ($voltagecmd->execCmd() == null || $voltagecmd->execCmd() != $voltage) {
 						$changed = true;
+						$voltagecmd->setCollectDate('');
                         $voltagecmd->event($voltage);
                     }
                 }
@@ -101,6 +104,7 @@ class mpower extends eqLogic {
                 if (is_object($currentcmd)) {
                     if ($currentcmd->execCmd() == null || $currentcmd->execCmd() != $current) {
 						$changed = true;
+						$currentcmd->setCollectDate('');
                         $currentcmd->event($current);
                     }
                 }
@@ -115,6 +119,7 @@ class mpower extends eqLogic {
                 if (is_object($energycmd)) {
                     if ($energycmd->execCmd() == null || $energycmd->execCmd() != $energy/100) {
 						$changed = true;
+						$energycmd->setCollectDate('');
                         $energycmd->event($energy/100);
                     }
                 }
