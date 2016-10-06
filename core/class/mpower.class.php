@@ -117,10 +117,10 @@ class mpower extends eqLogic {
                 }
                 $energycmd = mpowerCmd::byEqLogicIdAndLogicalId($this->getId(),'energy'.$port);
                 if (is_object($energycmd)) {
-                    if ($energycmd->execCmd() == null || $energycmd->execCmd() != $energy/100) {
+                    if ($energycmd->execCmd() == null || $energycmd->execCmd() != round($energy/10,2)) {
 						$changed = true;
 						$energycmd->setCollectDate('');
-                        $energycmd->event($energy/100);
+                        $energycmd->event(round($energy/10,2));
                     }
                 }
             }
