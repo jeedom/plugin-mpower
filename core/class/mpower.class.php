@@ -243,6 +243,7 @@ class mpowerCmd extends cmd {
 		if ($this->getLogicalId() == 'refresh') {
 			return mpower::cron($eqLogic->getId());
 		}
+		$output = $this->getLogicalId()== 'on' ? '1' : '0';
 		exec('curl -X PUT -d "output=' . $output . '" -b "AIROS_SESSIONID=' . $eqLogic->connect() . '" ' . $eqLogic->getConfiguration('addr') . '/sensors/' . $eqLogic->getLogicalId());
 		sleep(1);
 		$eqLogic->getmpowerInfo();
