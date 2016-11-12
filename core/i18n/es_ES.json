@@ -43,11 +43,21 @@
         "Mot de passe": "Contraseña",
         "3 prises": "3 tomas",
         "6 prises": "6 tomas",
-        "1 prise": "1 toma"
+        "1 prise": "1 toma",
+        "Ajouter un dispositif": "Añadir un dispositivo",
+        "Gestion": "Administración",
+        "Ajouter": "Añadir",
+        "Santé": "Salud",
+        "Equipement": "Dispositivos",
+        "Commandes": "Órdenes",
+        "Numéro de prise": "Numéro de prise",
+        "Configuration avancée": "Configuración avanzada"
     },
     "plugins/mpower/desktop/js/mpower.js": {
         "Historiser": "Guardar historial",
-        "Tester": "Probar"
+        "Tester": "Probar",
+        "Santé Mpower": "Santé Mpower",
+        "Afficher": "Mostrar"
     },
     "plugins/mpower/core/class/mpower.class.php": {
         "Etat 1": "Estado 1",
@@ -100,6 +110,17 @@
         "Facteur Puissance 5": "Factor de potencia 5",
         "Facteur Puissance 6": "Factor de potencia 6",
         "On tous": "Encender todos",
-        "Off tous": "Apagar todos"
+        "Off tous": "Apagar todos",
+        "Etat": "Estado",
+        "Puissance": "Potencia",
+        "Voltage": "Tensión",
+        "Courant": "Corriente",
+        "Consommation": "Consumo",
+        "Facteur Puissance": "Facteur Puissance",
+        "On": "On",
+        "Off": "Off"
+    },
+    "plugins/mpower/plugin_info/info.json": {
+        "Plugin pour controller les équipements Mpower": "Plugin para la gestión de dispositivos Mpower"
     }
 }

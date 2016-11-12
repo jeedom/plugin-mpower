@@ -43,11 +43,21 @@
         "Mot de passe": "Passwort",
         "3 prises": "Ausgang 3",
         "6 prises": "Ausgang 6",
-        "1 prise": "Ausgang 1"
+        "1 prise": "Ausgang 1",
+        "Ajouter un dispositif": "Ajouter un dispositif",
+        "Gestion": "Gestion",
+        "Ajouter": "Ajouter",
+        "Santé": "Santé",
+        "Equipement": "Equipement",
+        "Commandes": "Commandes",
+        "Numéro de prise": "Numéro de prise",
+        "Configuration avancée": "Configuration avancée"
     },
     "plugins/mpower/desktop/js/mpower.js": {
         "Historiser": "Chronik",
-        "Tester": "Test"
+        "Tester": "Test",
+        "Santé Mpower": "Santé Mpower",
+        "Afficher": "Afficher"
     },
     "plugins/mpower/core/class/mpower.class.php": {
         "Etat 1": "Zustand 1",
@@ -100,6 +110,17 @@
         "Facteur Puissance 5": "Leistungsfaktor 5",
         "Facteur Puissance 6": "Leistungsfaktor 6",
         "On tous": " Alle An",
-        "Off tous": "Alle Aus"
+        "Off tous": "Alle Aus",
+        "Etat": "Etat",
+        "Puissance": "Puissance",
+        "Voltage": "Voltage",
+        "Courant": "Courant",
+        "Consommation": "Consommation",
+        "Facteur Puissance": "Facteur Puissance",
+        "On": "On",
+        "Off": "Off"
+    },
+    "plugins/mpower/plugin_info/info.json": {
+        "Plugin pour controller les équipements Mpower": "Plugin pour controller les équipements Mpower"
     }
 }

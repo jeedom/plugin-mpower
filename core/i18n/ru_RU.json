@@ -43,11 +43,21 @@
         "Mot de passe": "Пароль",
         "3 prises": "3 prises",
         "6 prises": "6 prises",
-        "1 prise": "1 prise"
+        "1 prise": "1 prise",
+        "Ajouter un dispositif": "Ajouter un dispositif",
+        "Gestion": "Управление",
+        "Ajouter": "Добавить",
+        "Santé": "Здоровье",
+        "Equipement": "Оборудование",
+        "Commandes": "Команды",
+        "Numéro de prise": "Numéro de prise",
+        "Configuration avancée": "Расширенные настройки"
     },
     "plugins/mpower/desktop/js/mpower.js": {
         "Historiser": "История",
-        "Tester": "Тест"
+        "Tester": "Тест",
+        "Santé Mpower": "Santé Mpower",
+        "Afficher": "Отобразить"
     },
     "plugins/mpower/core/class/mpower.class.php": {
         "Etat 1": "Etat 1",
@@ -100,6 +110,17 @@
         "Facteur Puissance 5": "Facteur Puissance 5",
         "Facteur Puissance 6": "Facteur Puissance 6",
         "On tous": "On tous",
-        "Off tous": "Off tous"
+        "Off tous": "Off tous",
+        "Etat": "Состояние",
+        "Puissance": "Мощность",
+        "Voltage": "Напряжение",
+        "Courant": "Ток",
+        "Consommation": "Потребление",
+        "Facteur Puissance": "Facteur Puissance",
+        "On": "Включить",
+        "Off": "Выключить"
+    },
+    "plugins/mpower/plugin_info/info.json": {
+        "Plugin pour controller les équipements Mpower": "Plugin pour controller les équipements Mpower"
     }
 }
