@@ -44,20 +44,20 @@
         "3 prises": "Ausgang 3",
         "6 prises": "Ausgang 6",
         "1 prise": "Ausgang 1",
-        "Ajouter un dispositif": "Ajouter un dispositif",
-        "Gestion": "Gestion",
-        "Ajouter": "Ajouter",
-        "Santé": "Santé",
-        "Equipement": "Equipement",
-        "Commandes": "Commandes",
+        "Ajouter un dispositif": "Gerät hinzufügen",
+        "Gestion": "Verwaltung",
+        "Ajouter": "Hinzufügen",
+        "Santé": "Gesundheit",
+        "Equipement": "Gerät",
+        "Commandes": "Befehle",
         "Numéro de prise": "Numéro de prise",
-        "Configuration avancée": "Configuration avancée"
+        "Configuration avancée": "Erweiterte Konfiguration"
     },
     "plugins/mpower/desktop/js/mpower.js": {
         "Historiser": "Chronik",
         "Tester": "Test",
         "Santé Mpower": "Santé Mpower",
-        "Afficher": "Afficher"
+        "Afficher": "anzeigen"
     },
     "plugins/mpower/core/class/mpower.class.php": {
         "Etat 1": "Zustand 1",
@@ -111,16 +111,16 @@
         "Facteur Puissance 6": "Leistungsfaktor 6",
         "On tous": " Alle An",
         "Off tous": "Alle Aus",
-        "Etat": "Etat",
-        "Puissance": "Puissance",
-        "Voltage": "Voltage",
-        "Courant": "Courant",
-        "Consommation": "Consommation",
+        "Etat": "Zustand",
+        "Puissance": "Leistung",
+        "Voltage": "Spannung",
+        "Courant": "Strom",
+        "Consommation": "Verbrauch",
         "Facteur Puissance": "Facteur Puissance",
-        "On": "On",
-        "Off": "Off"
+        "On": "An",
+        "Off": "Aus"
     },
     "plugins/mpower/plugin_info/info.json": {
-        "Plugin pour controller les équipements Mpower": "Plugin pour controller les équipements Mpower"
+        "Plugin pour controller les équipements Mpower": "Plugin, um die Mpower-Geräte zu kontrollieren"
     }
 }
