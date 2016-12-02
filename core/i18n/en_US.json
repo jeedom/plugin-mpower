@@ -56,7 +56,7 @@
     "plugins/mpower/desktop/js/mpower.js": {
         "Historiser": "Historize",
         "Tester": "Test",
-        "Santé Mpower": "Santé Mpower",
+        "Santé Mpower": "Mpower health",
         "Afficher": "Show"
     },
     "plugins/mpower/core/class/mpower.class.php": {
@@ -116,7 +116,7 @@
         "Voltage": "Voltage",
         "Courant": "Current",
         "Consommation": "Consumption",
-        "Facteur Puissance": "Facteur Puissance",
+        "Facteur Puissance": "Power factor",
         "On": "On",
         "Off": "Off"
     },
