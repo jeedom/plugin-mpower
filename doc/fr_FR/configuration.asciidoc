@@ -26,9 +26,9 @@ si vous voulez que l'équipement soit actif ou non , et enfin si vous voulez qu'
 
 ... Configuration
 
-Cette section est une des plus importantes elle permet de choisir le modèle, l'ip de votre mpower ainsi que les identifications de connections (si vous les avez pas changé par défaut c'est : ubnt/ubnt)
+Cette section est une des plus importantes, elle permet de choisir le modèle, l'IP de votre mpower ainsi que les identifications de connections (si vous les avez pas changés par défaut c'est : ubnt/ubnt)
 
-... Tableau de Commandes
+... Tableau des Commandes
 
 Ici vous trouverez la liste de toutes les commandes et infos disponibles 
 
