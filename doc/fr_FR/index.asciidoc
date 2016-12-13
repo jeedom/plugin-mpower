@@ -10,7 +10,7 @@ Courant
 Voltage
 Et facteur de puissance
 
-Les données sont rafraichies toutes les minutes et après une action depuis jeedom
+Les données sont rafraîchies toutes les minutes et après une action depuis jeedom
 
 image:../images/mpower_screenshot1.png[width=256]
 image:../images/mpower_screenshot3.png[width=256]
