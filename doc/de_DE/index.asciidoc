@@ -1,6 +1,6 @@
 == Mpower
 
-=== Description
+=== Beschreibung
 Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos :
 
 Etat
