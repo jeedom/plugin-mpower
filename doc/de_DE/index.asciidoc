@@ -16,5 +16,5 @@ image:../images/mpower_screenshot1.png[width=256]
 image:../images/mpower_screenshot3.png[width=256]
 
 '''
-=== Configuration
+=== Konfiguration
 include::configuration.asciidoc[]

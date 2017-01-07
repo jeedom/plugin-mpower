@@ -56,7 +56,7 @@
     "plugins/mpower/desktop/js/mpower.js": {
         "Historiser": "Chronik",
         "Tester": "Test",
-        "Santé Mpower": "Santé Mpower",
+        "Santé Mpower": "Mpower Gesundheit",
         "Afficher": "anzeigen"
     },
     "plugins/mpower/core/class/mpower.class.php": {
