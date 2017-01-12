@@ -56,15 +56,12 @@ class mpower extends eqLogic {
 			if ($sensor['port'] != $this->getLogicalId()) {
 				continue;
 			}
-			$changed = $this->checkAndUpdateCmd('etat', $sensor['output']) || $changed;
-			$changed = $this->checkAndUpdateCmd('power', round($sensor['power'], 2)) || $changed;
-			$changed = $this->checkAndUpdateCmd('voltage', round($sensor['voltage'], 2)) || $changed;
-			$changed = $this->checkAndUpdateCmd('current', round($sensor['current'], 2)) || $changed;
-			$changed = $this->checkAndUpdateCmd('powerfactor', round($sensor['powerfactor'], 2)) || $changed;
-			$changed = $this->checkAndUpdateCmd('energy', round($sensor['energy'] / 10, 2)) || $changed;
-		}
-		if ($changed) {
-			$this->refreshWidget();
+			$this->checkAndUpdateCmd('etat', $sensor['output']);
+			$this->checkAndUpdateCmd('power', round($sensor['power'], 2));
+			$this->checkAndUpdateCmd('voltage', round($sensor['voltage'], 2));
+			$this->checkAndUpdateCmd('current', round($sensor['current'], 2));
+			$this->checkAndUpdateCmd('powerfactor', round($sensor['powerfactor'], 2));
+			$this->checkAndUpdateCmd('energy', round($sensor['energy'] / 10, 2));
 		}
 	}
 
