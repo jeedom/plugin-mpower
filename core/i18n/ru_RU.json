@@ -1,12 +1,12 @@
 {
     "plugins/mpower/plugin_info/info.xml": {
-        "Plugin pour controller les équipements Mpower": "Plugin pour controller les équipements Mpower",
+        "Plugin pour controller les équipements Mpower": "Plugin pour contrôler les équipements Mpower",
         "Aucune": "Нет"
     },
     "plugins/mpower/desktop/php/mpower.php": {
         "Ajouter un trajet": "Ajouter un trajet",
         "Rechercher": "Искать",
-        "Mes Trajets": "Mes Trajets",
+        "Mes Trajets": "Mes trajets",
         "Général": "Главная",
         "Nom de l'équipement": "Название оборудования",
         "Objet parent": "Родительский объект",
@@ -60,7 +60,7 @@
         "Afficher": "Отобразить"
     },
     "plugins/mpower/core/class/mpower.class.php": {
-        "Etat 1": "Etat 1",
+        "Etat 1": "État 1",
         "On 1": "On 1",
         "Rafraichir": "Обновить",
         "Off 1": "Off 1",
