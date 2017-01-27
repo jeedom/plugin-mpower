@@ -1,7 +1,7 @@
 {
     "plugins/mpower/plugin_info/info.xml": {
-        "Plugin pour controller les équipements Mpower": "Plugin pour contrôler les équipements Mpower",
-        "Aucune": "Ninguna"
+        "Plugin pour controller les équipements Mpower": "Plugin para controlar los dispositivos Mpower",
+        "Aucune": "Ninguno"
     },
     "plugins/mpower/desktop/php/mpower.php": {
         "Ajouter un trajet": "Añadir un trayecto",
@@ -50,17 +50,17 @@
         "Santé": "Salud",
         "Equipement": "Dispositivos",
         "Commandes": "Órdenes",
-        "Numéro de prise": "Numéro de prise",
+        "Numéro de prise": "Número de enchufe",
         "Configuration avancée": "Configuración avanzada"
     },
     "plugins/mpower/desktop/js/mpower.js": {
         "Historiser": "Guardar historial",
         "Tester": "Probar",
-        "Santé Mpower": "Santé Mpower",
+        "Santé Mpower": "Salud Mpower",
         "Afficher": "Mostrar"
     },
     "plugins/mpower/core/class/mpower.class.php": {
-        "Etat 1": "État 1",
+        "Etat 1": "Estado 1",
         "On 1": "Encendido 1",
         "Rafraichir": "Actualizar",
         "Off 1": "Apagado 1",
@@ -116,7 +116,7 @@
         "Voltage": "Tensión",
         "Courant": "Corriente",
         "Consommation": "Consumo",
-        "Facteur Puissance": "Facteur Puissance",
+        "Facteur Puissance": "Factor de potencia",
         "On": "On",
         "Off": "Off"
     },

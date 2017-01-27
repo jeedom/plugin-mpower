@@ -1,6 +1,6 @@
 {
     "plugins/mpower/plugin_info/info.xml": {
-        "Plugin pour controller les équipements Mpower": "Plugin pour contrôler les équipements Mpower",
+        "Plugin pour controller les équipements Mpower": "Plugin, um die Mpower-Geräte zu kontrollieren",
         "Aucune": "Ohne"
     },
     "plugins/mpower/desktop/php/mpower.php": {
@@ -50,7 +50,7 @@
         "Santé": "Gesundheit",
         "Equipement": "Gerät",
         "Commandes": "Befehle",
-        "Numéro de prise": "Numéro de prise",
+        "Numéro de prise": "Steckdosen Nummer",
         "Configuration avancée": "Erweiterte Konfiguration"
     },
     "plugins/mpower/desktop/js/mpower.js": {
@@ -60,7 +60,7 @@
         "Afficher": "anzeigen"
     },
     "plugins/mpower/core/class/mpower.class.php": {
-        "Etat 1": "État 1",
+        "Etat 1": "Zustand 1",
         "On 1": "An 1",
         "Rafraichir": "Aktualisieren",
         "Off 1": "Aus 1",
@@ -116,7 +116,7 @@
         "Voltage": "Spannung",
         "Courant": "Strom",
         "Consommation": "Verbrauch",
-        "Facteur Puissance": "Facteur Puissance",
+        "Facteur Puissance": "Leistungsfaktor",
         "On": "An",
         "Off": "Aus"
     },
