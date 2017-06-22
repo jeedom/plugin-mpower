@@ -51,17 +51,18 @@ class mpower extends eqLogic {
 			$cmd = 'curl -s -b "AIROS_SESSIONID=' . $this->connect() . '" ' . $this->getConfiguration('addr') . '/sensors';
 			self::$_mpowers[$this->getConfiguration('addr')]['infos'] = json_decode(exec($cmd), true);
 		}
-		$changed = false;
+		log::add('mpower', 'debug', print_r(self::$_mpowers[$this->getConfiguration('addr')]['infos'], true));
 		foreach (self::$_mpowers[$this->getConfiguration('addr')]['infos']['sensors'] as $sensor) {
 			if ($sensor['port'] != $this->getLogicalId()) {
 				continue;
 			}
+
 			$this->checkAndUpdateCmd('etat', $sensor['output']);
 			$this->checkAndUpdateCmd('power', round($sensor['power'], 2));
 			$this->checkAndUpdateCmd('voltage', round($sensor['voltage'], 2));
 			$this->checkAndUpdateCmd('current', round($sensor['current'], 2));
 			$this->checkAndUpdateCmd('powerfactor', round($sensor['powerfactor'], 2));
-			$this->checkAndUpdateCmd('energy', round($sensor['energy'] / 10, 2));
+			$this->checkAndUpdateCmd('energy', round($sensor['energy'] / 1000, 2));
 		}
 	}
 
