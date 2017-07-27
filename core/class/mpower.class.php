@@ -52,6 +52,9 @@ class mpower extends eqLogic {
 			self::$_mpowers[$this->getConfiguration('addr')]['infos'] = json_decode(exec($cmd), true);
 		}
 		log::add('mpower', 'debug', print_r(self::$_mpowers[$this->getConfiguration('addr')]['infos'], true));
+		if (!is_array(self::$_mpowers[$this->getConfiguration('addr')]['infos']['sensors'])) {
+			return;
+		}
 		foreach (self::$_mpowers[$this->getConfiguration('addr')]['infos']['sensors'] as $sensor) {
 			if ($sensor['port'] != $this->getLogicalId()) {
 				continue;
