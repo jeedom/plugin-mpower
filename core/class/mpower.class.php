@@ -59,7 +59,6 @@ class mpower extends eqLogic {
 			if ($sensor['port'] != $this->getLogicalId()) {
 				continue;
 			}
-
 			$this->checkAndUpdateCmd('etat', $sensor['output']);
 			$this->checkAndUpdateCmd('power', round($sensor['power'], 2));
 			$this->checkAndUpdateCmd('voltage', round($sensor['voltage'], 2));
