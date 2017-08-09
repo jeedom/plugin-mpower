@@ -25,19 +25,19 @@ foreach ($eqLogics as $eqLogic) {
    <div class="eqLogicThumbnailContainer">
     <div class="cursor eqLogicAction" data-action="add" style="text-align: center; background-color : #ffffff; height : 120px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >
       <i class="fa fa-plus-circle" style="font-size : 5em;color:#94ca02;"></i>
-    <br>
-    <span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;;color:#94ca02">{{Ajouter}}</span>
-  </div>
-  <div class="cursor" id="bt_healthmpower" style="text-align: center; background-color : #ffffff; height : 120px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >
+      <br>
+      <span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;;color:#94ca02">{{Ajouter}}</span>
+    </div>
+    <div class="cursor" id="bt_healthmpower" style="text-align: center; background-color : #ffffff; height : 120px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >
       <i class="fa fa-medkit" style="font-size : 5em;color:#767676;"></i>
-    <br>
-    <span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Santé}}</span>
+      <br>
+      <span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;color:#767676">{{Santé}}</span>
+    </div>
   </div>
-</div>
-<legend><i class="icon techno-cable1"></i>  {{Mes Mpowers}}
-</legend>
-<div class="eqLogicThumbnailContainer">
-  <?php
+  <legend><i class="icon techno-cable1"></i>  {{Mes Mpowers}}
+  </legend>
+  <div class="eqLogicThumbnailContainer">
+    <?php
 foreach ($eqLogics as $eqLogic) {
 	$opacity = '';
 	if ($eqLogic->getIsEnable() != 1) {
@@ -58,7 +58,7 @@ foreach ($eqLogics as $eqLogic) {
   <a class="btn btn-default eqLogicAction pull-right" data-action="configure"><i class="fa fa-cogs"></i> {{Configuration avancée}}</a>
   <a class="btn btn-default eqLogicAction pull-right" data-action="copy"><i class="fa fa-copy"></i> {{Dupliquer}}</a>
   <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation"><a href="#" class="eqLogicAction" aria-controls="home" role="tab" data-toggle="tab" data-action="returnToThumbnailDisplay"><i class="fa fa-arrow-circle-left"></i></a></li>
+    <li role="presentation"><a class="eqLogicAction cursor" aria-controls="home" role="tab" data-action="returnToThumbnailDisplay"><i class="fa fa-arrow-circle-left"></i></a></li>
     <li role="presentation" class="active"><a href="#eqlogictab" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-tachometer"></i> {{Equipement}}</a></li>
     <li role="presentation"><a href="#commandtab" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-list-alt"></i> {{Commandes}}</a></li>
   </ul>
