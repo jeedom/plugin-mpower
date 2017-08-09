@@ -412,29 +412,20 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
+<h1>Mpower</h1>
 <div id="toc" class="toc2">
 <div id="toctitle">Table des matières</div>
 <ul class="sectlevel1">
-<li><a href="#_mpower">1. Mpower</a>
-<ul class="sectlevel2">
-<li><a href="#_beschreibung">1.1. Beschreibung</a></li>
-<li><a href="#_konfiguration">1.2. Konfiguration</a>
-<ul class="sectlevel3">
-<li><a href="#_plugin_konfiguration">1.2.1. Plugin Konfiguration</a></li>
-<li><a href="#_le_widget">1.2.2. Le widget :</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li><a href="#_description">1. Description</a></li>
+<li><a href="#_configuration_du_plugin">2. Configuration du plugin</a></li>
+<li><a href="#_configuration_des_équipements">3. Configuration des équipements</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_mpower">1. Mpower</h2>
+<h2 id="_description">1. Description</h2>
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="_beschreibung">1.1. Beschreibung</h3>
 <div class="paragraph">
 <p>Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos :</p>
 </div>
@@ -447,105 +438,69 @@ Voltage
 et Facteur de puissance</p>
 </div>
 <div class="paragraph">
-<p>Les données sont rafraîchies toutes les minutes et après une action depuis jeedom</p>
+<p>Les données sont rafraîchies toutes les 15 minutes et après une action depuis jeedom</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_configuration_du_plugin">2. Configuration du plugin</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Après téléchargement du plugin, il vous suffit juste d&#8217;activer celui-ci, il n&#8217;y a aucune configuration à ce niveau.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_configuration_des_équipements">3. Configuration des équipements</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Rendez vous dans le menu Plugins/Energie, vous y trouverez le plugin Mpower</p>
 </div>
 <div class="paragraph">
-<p><span class="image"><img src="../images/mpower_screenshot1.png" alt="mpower_screenshot1" width="256"></span>
-<span class="image"><img src="../images/mpower_screenshot3.png" alt="mpower_screenshot3" width="256"></span></p>
-</div>
-<hr>
-</div>
-<div class="sect2">
-<h3 id="_konfiguration">1.2. Konfiguration</h3>
-<div class="sect3">
-<h4 id="_plugin_konfiguration">1.2.1. Plugin Konfiguration</h4>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p>Installation/Einrichtung</p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>Afin d&#8217;utiliser le plugin, vous devez le télécharger, l&#8217;installer et l&#8217;activer comme tout plugin Jeedom.</p>
-</div>
-<div class="paragraph">
-<p>Rendez vous dans le menu Plugins/Energie, vous y trouverez le plugin Mpower :</p>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="../images/configuration1.png" alt="configuration1" width="380"></span></p>
-</div>
-<div class="paragraph">
-<p>Ensuite vous arriverez sur la page qui listera vos Mpowers</p>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="../images/mpower_screenshot4.png" alt="mpower_screenshot4" width="380"></span></p>
-</div>
-<div class="paragraph">
-<p>Cliquez sur le bouton Ajouter si vous voulez rajouter un Mpower manuellement</p>
-</div>
-<div class="paragraph">
-<p>Sur cette page vous trouverez trois sections :</p>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="../images/mpower_screenshot2.png" alt="mpower_screenshot2" width="380"></span></p>
-</div>
-<div class="olist lowerroman">
-<ol class="lowerroman" type="i">
-<li>
-<p>Général</p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>Vous trouverez dans cette section toutes les configurations Jeedom. A savoir
-le nom de votre équippement, l&#8217;objet auquel vous voulez l&#8217;associer, la catégorie,
-si vous voulez que l&#8217;équipement soit actif ou non , et enfin si vous voulez qu&#8217;il soit visible sur le dashboard.</p>
-</div>
-<div class="olist lowerroman">
-<ol class="lowerroman" type="i">
-<li>
-<p>Konfiguration</p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>Cette section est une des plus importantes elle permet de choisir le modèle, l&#8217;ip de votre Mpower ainsi que les identifications de connections (si vous les avez pas changés par défaut c&#8217;est : ubnt/ubnt)</p>
-</div>
-<div class="olist lowerroman">
-<ol class="lowerroman" type="i">
-<li>
-<p>Tableau de Commandes</p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>Ici vous trouverez la liste de toutes les commandes et infos disponibles</p>
-</div>
-<div class="paragraph">
-<p>Toutes ces commandes sont disponibles via scénarios et via le dashboard</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_le_widget">1.2.2. Le widget :</h4>
-<div class="paragraph">
-<p><span class="image"><img src="../images/mpower_screenshot1.png" alt="mpower_screenshot1" width="380"></span>
-<span class="image"><img src="../images/mpower_screenshot3.png" alt="mpower_screenshot3" width="380"></span></p>
-</div>
-<div class="paragraph">
-<p>Le widget se décompose en deux parties :</p>
+<p>Vous retrouvez ici toute la configuration de votre équipement :</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Par défaut vous voyez vos prises avec la puissance et la consommation de chacune. Un clic sur la prise permet de changer son état. En bas a gauche vous avez deux boutons permettant de couper ou allumer toutes les prises.</p>
+<p><strong>Nom de l&#8217;équipement Mode</strong> : nom de votre équipement Mode,</p>
 </li>
 <li>
-<p>Lorsque vous cliquez sur le bouton en bas à droite vous remplacez la puissance et la consommation par le courant, les volts et le facteur de puissance</p>
+<p><strong>Objet parent</strong> : indique l&#8217;objet parent auquel appartient l&#8217;équipement,</p>
+</li>
+<li>
+<p><strong>Activer</strong> : permet de rendre votre équipement actif,</p>
+</li>
+<li>
+<p><strong>Visible</strong> : rend votre équipement visible sur le dashboard,</p>
+</li>
+<li>
+<p><strong>Catégorie</strong> : les catégories de l&#8217;équipement (il peut appartenir à plusieurs catégories).</p>
+</li>
+<li>
+<p><strong>Adresse IP</strong> : addresse IP de la prise</p>
+</li>
+<li>
+<p><strong>Login</strong> : login de connexion (par defaut ubnt)</p>
+</li>
+<li>
+<p><strong>Mot de passe</strong> : mot de passe (par defaut ubnt)</p>
+</li>
+<li>
+<p><strong>Numéro de prise</strong> : numéro de la prise (commence à 1)</p>
 </li>
 </ul>
 </div>
-</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Il faut faire un équipement par prise
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>

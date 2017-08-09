@@ -1,6 +1,6 @@
-== Mpower
+= Mpower
 
-=== Description
+== Description
 Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos :
 
 Etat
@@ -10,11 +10,6 @@ Courant
 Voltage
 et Facteur de puissance
 
-Les données sont rafraîchies toutes les minutes et après une action depuis jeedom
+Les données sont rafraîchies toutes les 15 minutes et après une action depuis jeedom
 
-image:../images/mpower_screenshot1.png[width=256]
-image:../images/mpower_screenshot3.png[width=256]
-
-'''
-=== Configuration
 include::configuration.asciidoc[]
