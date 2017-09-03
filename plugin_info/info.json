@@ -1,10 +1,12 @@
 {
-    "id": "mpower",
-    "name" : "Mpower",
-    "description" : "Plugin pour controller les équipements Mpower",
-    "licence" : "AGPL",
-    "author" : "Ludovic SARAKHA",
-    "require" : "2.4",
-    "category" : "energy"
+	"id": "mpower",
+	"name" : "Mpower",
+	"description" : "Plugin pour controller les équipements Mpower",
+	"licence" : "AGPL",
+	"author" : "Ludovic SARAKHA",
+	"require" : "3.0",
+	"category" : "energy",
+	"changelog" : "https://github.com/jeedom/plugin-mpower/blob/stable/doc/#language#/changelog.asciidoc",
+	"documentation" : "https://github.com/jeedom/plugin-mpower/blob/stable/doc/#language#/index.asciidoc"
 }
 
