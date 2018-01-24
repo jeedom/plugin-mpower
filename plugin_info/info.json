@@ -6,7 +6,7 @@
 	"author" : "Ludovic SARAKHA",
 	"require" : "3.0",
 	"category" : "energy",
-	"changelog" : "https://github.com/jeedom/plugin-mpower/blob/stable/doc/#language#/changelog.asciidoc",
-	"documentation" : "https://github.com/jeedom/plugin-mpower/blob/stable/doc/#language#/index.asciidoc"
+       ,
+        "changelog" : "https://jeedom.github.io/plugin-mpower/#language#/changelog",
+        "documentation" : "https://jeedom.github.io/plugin-mpower/#language#/"
 }
-
