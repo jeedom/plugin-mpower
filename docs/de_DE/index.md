@@ -21,7 +21,7 @@ Configuration des équipements
 Rendez vous dans le menu Plugins/Energie, vous y trouverez le plugin
 Mpower
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Hier finden sie die ganze Konfiguration Ihrer Geräte:
 
 -   **Nom de l’équipement Mode** : nom de votre équipement Mode,
 

@@ -21,11 +21,11 @@ Configuration des équipements
 Rendez vous dans le menu Plugins/Energie, vous y trouverez le plugin
 Mpower
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
 -   **Nom de l’équipement Mode** : nom de votre équipement Mode,
 
--   **Objet parent** : indique l’objet parent auquel appartient
+-   **Objeto padre** : especifica el objeto padre al que pertenece
     l’équipement,
 
 -   **Activer** : permet de rendre votre équipement actif,
