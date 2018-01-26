@@ -1,12 +1,12 @@
 {
     "plugins/mpower/plugin_info/info.xml": {
-        "Plugin pour controller les équipements Mpower": "MPOWER機器を制御するためのプラグイン",
+        "Plugin pour controller les équipements Mpower": "Plugin pour controller les équipements Mpower",
         "Aucune": "何でもありません"
     },
     "plugins/mpower/desktop/php/mpower.php": {
         "Ajouter un trajet": "パスを追加",
         "Rechercher": "検索する",
-        "Mes Trajets": "私の旅",
+        "Mes Trajets": "Mes Trajets",
         "Général": "コモン",
         "Nom de l'équipement": "機器の名前",
         "Objet parent": "親オブジェクト",
@@ -51,7 +51,8 @@
         "Equipement": "設備",
         "Commandes": "コマンド",
         "Numéro de prise": "番号札を取ります",
-        "Configuration avancée": "高度な設定"
+        "Configuration avancée": "高度な設定",
+        "Dupliquer": "複写"
     },
     "plugins/mpower/desktop/js/mpower.js": {
         "Historiser": "historicize",
@@ -60,7 +61,7 @@
         "Afficher": "ディスプレイ"
     },
     "plugins/mpower/core/class/mpower.class.php": {
-        "Etat 1": "状態1",
+        "Etat 1": "Etat 1",
         "On 1": "1オン",
         "Rafraichir": "リフレッシュ",
         "Off 1": "1オフ",

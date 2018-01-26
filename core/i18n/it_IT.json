@@ -1,12 +1,12 @@
 {
     "plugins/mpower/plugin_info/info.xml": {
-        "Plugin pour controller les équipements Mpower": "Plugin per controllare apparecchiature Mpower",
+        "Plugin pour controller les équipements Mpower": "Plugin pour controller les équipements Mpower",
         "Aucune": "Nessuno"
     },
     "plugins/mpower/desktop/php/mpower.php": {
         "Ajouter un trajet": "Aggiungi percorso",
         "Rechercher": "Cerca",
-        "Mes Trajets": "I miei viaggi",
+        "Mes Trajets": "Mes Trajets",
         "Général": "Principale",
         "Nom de l'équipement": "Nome dispositivo",
         "Objet parent": "Oggetto padre",
@@ -51,7 +51,8 @@
         "Equipement": "Dispositivo",
         "Commandes": "Comandi",
         "Numéro de prise": "prendere il numero",
-        "Configuration avancée": "Configurazione avanzata"
+        "Configuration avancée": "Configurazione avanzata",
+        "Dupliquer": "Duplica"
     },
     "plugins/mpower/desktop/js/mpower.js": {
         "Historiser": "Storicizza",
@@ -60,7 +61,7 @@
         "Afficher": "Mostra"
     },
     "plugins/mpower/core/class/mpower.class.php": {
-        "Etat 1": "Stato 1",
+        "Etat 1": "Etat 1",
         "On 1": "Il 1",
         "Rafraichir": "Ricarica",
         "Off 1": "off 1",

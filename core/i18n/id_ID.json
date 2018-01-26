@@ -1,12 +1,12 @@
 {
     "plugins/mpower/plugin_info/info.xml": {
-        "Plugin pour controller les équipements Mpower": "Plugin untuk mengontrol peralatan Mpower",
+        "Plugin pour controller les équipements Mpower": "Plugin pour controller les équipements Mpower",
         "Aucune": "Tak ada"
     },
     "plugins/mpower/desktop/php/mpower.php": {
         "Ajouter un trajet": "Tambah Jalur",
         "Rechercher": "Mencari",
-        "Mes Trajets": "perjalanan saya",
+        "Mes Trajets": "Mes Trajets",
         "Général": "Umum",
         "Nom de l'équipement": "Nama peralatan",
         "Objet parent": "Objek induk",
@@ -51,7 +51,8 @@
         "Equipement": "Peralatan",
         "Commandes": "Perintah",
         "Numéro de prise": "mengambil nomor",
-        "Configuration avancée": "konfigurasi lanjutan"
+        "Configuration avancée": "konfigurasi lanjutan",
+        "Dupliquer": "duplikat"
     },
     "plugins/mpower/desktop/js/mpower.js": {
         "Historiser": "Historicize",
@@ -60,7 +61,7 @@
         "Afficher": "Memenitikan"
     },
     "plugins/mpower/core/class/mpower.class.php": {
-        "Etat 1": "negara 1",
+        "Etat 1": "Etat 1",
         "On 1": "pada 1",
         "Rafraichir": "menyegarkan",
         "Off 1": "off 1",

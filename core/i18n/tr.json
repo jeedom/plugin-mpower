@@ -1,12 +1,12 @@
 {
     "plugins/mpower/plugin_info/info.xml": {
-        "Plugin pour controller les équipements Mpower": "Mpower ekipmanını kontrol etmek için eklenti",
+        "Plugin pour controller les équipements Mpower": "Mpower ekipmanlarını kontrol etmek için eklenti",
         "Aucune": "Hiçbir"
     },
     "plugins/mpower/desktop/php/mpower.php": {
         "Ajouter un trajet": "Yol ekle",
         "Rechercher": "Arayın",
-        "Mes Trajets": "Güzergahlarim",
+        "Mes Trajets": "Yollarım",
         "Général": "Genel",
         "Nom de l'équipement": "Ekipman ismi",
         "Objet parent": "Üst nesne",
@@ -51,7 +51,8 @@
         "Equipement": "Cihaz",
         "Commandes": "Komutalar",
         "Numéro de prise": "Priz  numarası",
-        "Configuration avancée": "Gelişmiş ayarlar"
+        "Configuration avancée": "Gelişmiş ayarlar",
+        "Dupliquer": "Kopyala"
     },
     "plugins/mpower/desktop/js/mpower.js": {
         "Historiser": "Tarihe göre sırala",
@@ -60,7 +61,7 @@
         "Afficher": "Göster"
     },
     "plugins/mpower/core/class/mpower.class.php": {
-        "Etat 1": "Durum 1",
+        "Etat 1": "Etat 1",
         "On 1": "On 1",
         "Rafraichir": "Yenile",
         "Off 1": "Off 1",

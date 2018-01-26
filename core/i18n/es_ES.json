@@ -1,12 +1,12 @@
 {
     "plugins/mpower/plugin_info/info.xml": {
-        "Plugin pour controller les équipements Mpower": "Plugin para controlar los dispositivos Mpower",
+        "Plugin pour controller les équipements Mpower": "Plugin para la gestión de dispositivos Mpower",
         "Aucune": "Ninguno"
     },
     "plugins/mpower/desktop/php/mpower.php": {
         "Ajouter un trajet": "Añadir un trayecto",
         "Rechercher": "Buscar",
-        "Mes Trajets": "Mis rutas",
+        "Mes Trajets": "Mis Trayectos",
         "Général": "General",
         "Nom de l'équipement": "Nombre del dispositivo",
         "Objet parent": "Objeto padre",
@@ -51,7 +51,8 @@
         "Equipement": "Dispositivos",
         "Commandes": "Órdenes",
         "Numéro de prise": "Número de enchufe",
-        "Configuration avancée": "Configuración avanzada"
+        "Configuration avancée": "Configuración avanzada",
+        "Dupliquer": "Duplicar"
     },
     "plugins/mpower/desktop/js/mpower.js": {
         "Historiser": "Guardar historial",
