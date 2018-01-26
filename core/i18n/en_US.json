@@ -1,6 +1,6 @@
 {
     "plugins/mpower/plugin_info/info.xml": {
-        "Plugin pour controller les équipements Mpower": "Plugin pour contrôler les équipements Mpower",
+        "Plugin pour controller les équipements Mpower": "Plugin to control Mpower equipment",
         "Aucune": "None"
     },
     "plugins/mpower/desktop/php/mpower.php": {
@@ -50,7 +50,7 @@
         "Santé": "Health",
         "Equipement": "Device",
         "Commandes": "Commands",
-        "Numéro de prise": "Numéro de prise",
+        "Numéro de prise": "Take number",
         "Configuration avancée": "Advanced configuration"
     },
     "plugins/mpower/desktop/js/mpower.js": {
@@ -60,7 +60,7 @@
         "Afficher": "Show"
     },
     "plugins/mpower/core/class/mpower.class.php": {
-        "Etat 1": "État 1",
+        "Etat 1": "State 1",
         "On 1": "On 1",
         "Rafraichir": "Refresh",
         "Off 1": "Off 1",
