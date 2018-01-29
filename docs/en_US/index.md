@@ -27,9 +27,9 @@ You can find here the full configuration of your device :
 -   **Parent Object** : means the parent object the equipment depend
     equipment,
 
--   ** Enable **: to make your equipment active,
+-   **Enable**: to make your equipment active,
 
--   ** Visible **: makes your equipment visible on the dashboard,
+-   **Visible**: makes your equipment visible on the dashboard,
 
 -   **Catégorie** : les catégories de l’équipement (il peut appartenir à
     plusieurs catégories).
