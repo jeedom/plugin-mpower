@@ -9,7 +9,7 @@ Etat Puissance Consommation Courant Voltage et Facteur de puissance
 Les données sont rafraîchies toutes les 15 minutes et après une action
 depuis jeedom
 
-Configuration du plugin 
+configuración del plugin
 =======================
 
 Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
@@ -26,11 +26,11 @@ Aquí encontrará toda la configuración de su dispositivo:
 -   **Nom de l’équipement Mode** : nom de votre équipement Mode,
 
 -   **Objeto padre** : especifica el objeto padre al que pertenece
-    l’équipement,
+    equipos,
 
--   **Activer** : permet de rendre votre équipement actif,
+-   ** ** Activar: para que su equipo activo,
 
--   **Visible** : rend votre équipement visible sur le dashboard,
+-   ** ** visible hace que su equipo visible en el salpicadero,
 
 -   **Catégorie** : les catégories de l’équipement (il peut appartenir à
     plusieurs catégories).
