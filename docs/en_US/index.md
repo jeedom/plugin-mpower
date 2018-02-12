@@ -11,10 +11,10 @@ depuis jeedom
 
 == Plugin configuration
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+After downloading the plugin, you just have to activate it,
+there is no configuration at this level.
 
-Configuration des équipements 
+Equipment configuration
 =============================
 
 Rendez vous dans le menu Plugins/Energie, vous y trouverez le plugin
@@ -31,8 +31,8 @@ You can find here the full configuration of your device :
 
 -   **Visible**: makes your equipment visible on the dashboard,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories).
+-   **Category**: categories of equipment (it may belong to
+    several categories).
 
 -   **Adresse IP** : addresse IP de la prise
 

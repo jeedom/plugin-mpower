@@ -12,10 +12,10 @@ depuis jeedom
 configuración del plugin
 =======================
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+Después de descargar el plugin, sólo hay que activarlo,
+no hay ninguna configuración a este nivel.
 
-Configuration des équipements 
+Configuración del dispositivo
 =============================
 
 Rendez vous dans le menu Plugins/Energie, vous y trouverez le plugin
@@ -23,7 +23,7 @@ Mpower
 
 Aquí encontrará toda la configuración de su dispositivo:
 
--   **Nom de l’équipement Mode** : nom de votre équipement Mode,
+-   ** ** Nombre del dispositivo Modo: Modo nombre de su equipo,
 
 -   **Objeto padre** : especifica el objeto padre al que pertenece
     equipos,
@@ -32,8 +32,8 @@ Aquí encontrará toda la configuración de su dispositivo:
 
 -   ** ** visible hace que su equipo visible en el salpicadero,
 
--   **Catégorie** : les catégories de l’équipement (il peut appartenir à
-    plusieurs catégories).
+-   ** ** Categoría: categorías de equipos (que pueden pertenecer a
+    la mayoría de categorías).
 
 -   **Adresse IP** : addresse IP de la prise
 
