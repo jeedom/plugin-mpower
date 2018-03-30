@@ -51,7 +51,8 @@
         "Equipement": "Gerät",
         "Commandes": "Befehle",
         "Numéro de prise": "Steckdosen Nummer",
-        "Configuration avancée": "Erweiterte Konfiguration"
+        "Configuration avancée": "Erweiterte Konfiguration",
+        "Dupliquer": "Kopieren"
     },
     "plugins/mpower/desktop/js/mpower.js": {
         "Historiser": "Chronik",
