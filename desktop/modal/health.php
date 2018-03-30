@@ -18,7 +18,8 @@
 if (!isConnect('admin')) {
 	throw new Exception('401 Unauthorized');
 }
-$eqLogics = mpower::byType('mpower');
+$plugin = plugin::byId('mpower');
+$eqLogics = eqLogic::byType($plugin->getId());
 ?>
 
 <table class="table table-condensed tablesorter" id="table_healthmpower">
@@ -36,14 +37,14 @@ $eqLogics = mpower::byType('mpower');
 	 <?php
 foreach ($eqLogics as $eqLogic) {
 	$opacity = '';
-    if ($eqLogic->getIsEnable() != 1) {
-        $opacity = 'opacity:0.3;';
-    }
-    if ($eqLogic->getConfiguration('model', '') != '') {
-        $image = '<img src="plugins/mpower/doc/images/' . $eqLogic->getConfiguration('model', '') . '.jpg" height="55" width="55" />';
-    } else {
-        $image = '<img src="plugins/mpower/doc/images/mpower_icon.png" height="55" width="55" />';
-    }
+	if ($eqLogic->getIsEnable() != 1) {
+		$opacity = 'opacity:0.3;';
+	}
+	if ($eqLogic->getConfiguration('model', '') != '') {
+		$image = '<img src="plugins/mpower/doc/images/' . $eqLogic->getConfiguration('model', '') . '.jpg" height="55" width="55" />';
+	} else {
+		$image = '<img src="' . $plugin->getPathImgIcon() . '" height="55" width="55" />';
+	}
 	echo '<tr><td>' . $image . '</td><td><a href="' . $eqLogic->getLinkToConfiguration() . '" style="text-decoration: none;">' . $eqLogic->getHumanName(true) . '</a></td>';
 	echo '<td><span class="label label-info" style="font-size : 1em;">' . $eqLogic->getId() . '</span></td>';
 	echo '<td><span class="label label-info" style="font-size : 1em;">' . $eqLogic->getConfiguration('addr') . '</span></td>';
