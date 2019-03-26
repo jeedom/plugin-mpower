@@ -10,14 +10,14 @@ $eqLogics = eqLogic::byType($plugin->getId());
 	<div class="col-xs-12 eqLogicThumbnailDisplay">
 		<legend><i class="fas fa-cog"></i> {{Gestion}}</legend>
 		<div class="eqLogicThumbnailContainer">
-			<div class="cursor eqLogicAction logoPrimary" data-action="add"  >
+			<div class="cursor eqLogicAction logoPrimary" data-action="add">
 				<i class="fas fa-plus-circle"></i>
-				<br>
+				<br/>
 				<span>{{Ajouter}}</span>
 			</div>
-			<div class="cursor" id="bt_healthmpower"  >
+			<div class="cursor logoSecondary" id="bt_healthmpower">
 				<i class="fas fa-medkit"></i>
-				<br>
+				<br/>
 				<span >{{Santé}}</span>
 			</div>
 		</div>
@@ -26,13 +26,10 @@ $eqLogics = eqLogic::byType($plugin->getId());
 		<div class="eqLogicThumbnailContainer">
 			<?php
 			foreach ($eqLogics as $eqLogic) {
-				$opacity = '';
-				if ($eqLogic->getIsEnable() != 1) {
-					$opacity = 'opacity:0.3;';
-				}
+				$opacity = ($eqLogic->getIsEnable()) ? '' : 'disableCard';
 				echo '<div class="eqLogicDisplayCard cursor '.$opacity.'" data-eqLogic_id="' . $eqLogic->getId() . '">';
-				echo '<img src="' . $plugin->getPathImgIcon() . '" height="105" width="105" />';
-				echo "<br>";
+				echo '<img src="' . $plugin->getPathImgIcon() . '"  />';
+				echo '<br/>';
 				echo '<span class="name">' . $eqLogic->getHumanName(true, true) . '</span>';
 				echo '</div>';
 			}
