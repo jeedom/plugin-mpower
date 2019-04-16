@@ -46,6 +46,6 @@ function addCmdToTable(_cmd) {
     tr += '<i class="fas fa-minus-circle pull-right cmdAction cursor" data-action="remove"></i></td>';
     tr += '</tr>';
     $('#table_cmd tbody').append(tr);
-    $('#table_cmd tbody tr:last').setValues(_cmd, '.cmdAttr');
-    jeedom.cmd.changeType($('#table_cmd tbody tr:last'), init(_cmd.subType));
+    $('#table_cmd tbody tr').last().setValues(_cmd, '.cmdAttr');
+    jeedom.cmd.changeType($('#table_cmd tbody tr').last(), init(_cmd.subType));
 }
