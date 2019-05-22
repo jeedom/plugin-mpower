@@ -106,7 +106,7 @@ $eqLogics = eqLogic::byType($plugin->getId());
 						<div class="form-group">
 							<label class="col-lg-3 control-label">{{Mot de passe}}</label>
 							<div class="col-lg-4">
-								<input type="password" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="pwd" placeholder="{{Mot de passe}}"/>
+								<input type="password" autocomplete="new-password" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="pwd" placeholder="{{Mot de passe}}"/>
 							</div>
 						</div>
 						<div class="form-group">
