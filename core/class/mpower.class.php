@@ -67,7 +67,7 @@ class mpower extends eqLogic {
 			if(isset($sensor['energy'])) {
                                 $this->checkAndUpdateCmd('energy', round($sensor['energy'] / 1000, 2));
                                 } else {
-                        $this->checkAndUpdateCmd('energy', round($sensor['thismonth']) * 0.0003125, 2));
+                        $this->checkAndUpdateCmd('energy', round($sensor['thismonth'] * 0.0003125, 2));
                                 }
 		}
 	}
