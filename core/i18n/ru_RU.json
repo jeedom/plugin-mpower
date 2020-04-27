@@ -1,46 +1,54 @@
 {
-    "desktop\/modal\/health.php": {
-        "Image": "Image",
-        "Module": "Module",
-        "ID": "ID",
-        "IP": "IP",
+    "plugins\/mpower\/desktop\/modal\/health.php": {
+        "Image": "Изображение",
+        "Module": "",
+        "ID": "Идентификатор",
+        "IP": "",
         "Modèle": "Модель",
-        "Date création": "Date création"
+        "Date création": ""
     },
-    "desktop\/js\/mpower.js": {
-        "Santé Mpower": "здоровье Mpower",
-        "Afficher": "Отобразить",
-        "Historiser": "История",
-        "Tester": "Тест"
-    },
-    "desktop\/php\/mpower.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
+    "plugins\/mpower\/desktop\/php\/mpower.php": {
+        "401 - Accès non autorisé": "401 - Несанкционированный доступ",
         "Gestion": "Управление",
         "Ajouter": "Добавить",
         "Santé": "Здоровье",
-        "Mes Mpowers": "мой Mpowers",
-        "Rechercher": "Искать",
+        "Mes Mpowers": "",
+        "Rechercher": "поиск",
         "Configuration avancée": "Расширенные настройки",
-        "Dupliquer": "Дублировать",
+        "Dupliquer": "дубликат",
         "Sauvegarder": "Сохранить",
-        "Supprimer": "Удалить",
+        "Supprimer": "удаление",
         "Equipement": "Оборудование",
         "Commandes": "Команды",
         "Nom de l'équipement": "Название оборудования",
         "Objet parent": "Родительский объект",
         "Aucun": "Нет",
-        "Catégorie": "Категория",
-        "Activer": "Активировать",
+        "Catégorie": "категория",
+        "Activer": "активировать",
         "Visible": "Видимый",
         "Adresse IP": "IP Адрес ",
-        "Login": "Логин",
+        "Login": "",
         "Mot de passe": "Пароль",
-        "Numéro de prise": "Возьмите номер",
+        "Numéro de prise": "",
         "Nom": "Имя",
         "Options": "Опции",
         "Action": "Действие"
     },
-    "core\/class\/mpower.class.php": {
-        "Plugin pour controller les équipements Mpower": "Плагин для контроллера Mpower оборудования"
+    "plugins\/mpower\/desktop\/js\/mpower.js": {
+        "Santé Mpower": "",
+        "Afficher": "дисплей",
+        "Historiser": "История",
+        "Tester": "Тест"
+    },
+    "plugins\/mpower\/core\/class\/mpower.class.php": {
+        "Etat": "состояние",
+        "Puissance": "мощность",
+        "Voltage": "",
+        "Courant": "",
+        "Consommation": "",
+        "Facteur Puissance": "",
+        "On": "",
+        "Off": "Выключить",
+        "Rafraichir": "Обновить"
     }
 }

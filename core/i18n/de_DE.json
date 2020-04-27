@@ -1,46 +1,54 @@
 {
-    "desktop\/modal\/health.php": {
+    "plugins\/mpower\/desktop\/modal\/health.php": {
         "Image": "Bild",
         "Module": "Modul",
         "ID": "Identifikation",
         "IP": "IP",
-        "Modèle": "Model",
+        "Modèle": "Modell",
         "Date création": "Erstellungsdatum"
     },
-    "desktop\/js\/mpower.js": {
-        "Santé Mpower": "Mpower Gesundheit",
-        "Afficher": "anzeigen",
-        "Historiser": "Chronik",
-        "Tester": "Test"
-    },
-    "desktop\/php\/mpower.php": {
+    "plugins\/mpower\/desktop\/php\/mpower.php": {
         "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
         "Gestion": "Verwaltung",
         "Ajouter": "Hinzufügen",
         "Santé": "Gesundheit",
-        "Mes Mpowers": "Mein Mpowers",
+        "Mes Mpowers": "",
         "Rechercher": "Suchen nach",
         "Configuration avancée": "Erweiterte Konfiguration",
-        "Dupliquer": "Kopieren",
+        "Dupliquer": "Duplikat",
         "Sauvegarder": "Speichern",
         "Supprimer": "Löschen",
         "Equipement": "Gerät",
         "Commandes": "Befehle",
-        "Nom de l'équipement": "Gerätename",
-        "Objet parent": "Eltern-Objekt",
+        "Nom de l'équipement": "Name der Ausrüstung",
+        "Objet parent": "Übergeordnetes Objekt",
         "Aucun": "Ohne",
         "Catégorie": "Kategorie",
         "Activer": "Aktivieren",
         "Visible": "Sichtbar",
-        "Adresse IP": "IP Adresse",
-        "Login": "Einloggen",
+        "Adresse IP": "IP-Adresse",
+        "Login": "Login",
         "Mot de passe": "Passwort",
-        "Numéro de prise": "Steckdosen Nummer",
+        "Numéro de prise": "",
         "Nom": "Name",
         "Options": "Optionen",
         "Action": "Aktion"
     },
-    "core\/class\/mpower.class.php": {
-        "Plugin pour controller les équipements Mpower": "Plugin, um die Mpower-Geräte zu kontrollieren"
+    "plugins\/mpower\/desktop\/js\/mpower.js": {
+        "Santé Mpower": "",
+        "Afficher": "Anzeige",
+        "Historiser": "Chronik",
+        "Tester": "Test"
+    },
+    "plugins\/mpower\/core\/class\/mpower.class.php": {
+        "Etat": "Zustand",
+        "Puissance": "Macht",
+        "Voltage": "",
+        "Courant": "",
+        "Consommation": "Verbrauch",
+        "Facteur Puissance": "",
+        "On": "Ein",
+        "Off": "Aus",
+        "Rafraichir": "Aktualisieren"
     }
 }

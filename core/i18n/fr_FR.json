@@ -1,5 +1,5 @@
 {
-    "desktop\/modal\/health.php": {
+    "plugins\/mpower\/desktop\/modal\/health.php": {
         "Image": "Image",
         "Module": "Module",
         "ID": "ID",
@@ -7,13 +7,7 @@
         "Modèle": "Modèle",
         "Date création": "Date création"
     },
-    "desktop\/js\/mpower.js": {
-        "Santé Mpower": "Santé Mpower",
-        "Afficher": "Afficher",
-        "Historiser": "Historiser",
-        "Tester": "Tester"
-    },
-    "desktop\/php\/mpower.php": {
+    "plugins\/mpower\/desktop\/php\/mpower.php": {
         "401 - Accès non autorisé": "401 - Accès non autorisé",
         "Gestion": "Gestion",
         "Ajouter": "Ajouter",
@@ -40,7 +34,13 @@
         "Options": "Options",
         "Action": "Action"
     },
-    "core\/class\/mpower.class.php": {
+    "plugins\/mpower\/desktop\/js\/mpower.js": {
+        "Santé Mpower": "Santé Mpower",
+        "Afficher": "Afficher",
+        "Historiser": "Historiser",
+        "Tester": "Tester"
+    },
+    "plugins\/mpower\/core\/class\/mpower.class.php": {
         "Etat": "Etat",
         "Puissance": "Puissance",
         "Voltage": "Voltage",

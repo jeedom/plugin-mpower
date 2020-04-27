@@ -1,24 +1,18 @@
 {
-    "desktop\/modal\/health.php": {
-        "Image": "Image",
-        "Module": "Module",
-        "ID": "ID",
-        "IP": "IP",
+    "plugins\/mpower\/desktop\/modal\/health.php": {
+        "Image": "Fotoğraf",
+        "Module": "",
+        "ID": "Kimlik",
+        "IP": "",
         "Modèle": "Model",
-        "Date création": "Date création"
+        "Date création": ""
     },
-    "desktop\/js\/mpower.js": {
-        "Santé Mpower": "Sağlık Mpower",
-        "Afficher": "Göster",
-        "Historiser": "Tarihe göre sırala",
-        "Tester": "Dene"
-    },
-    "desktop\/php\/mpower.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
+    "plugins\/mpower\/desktop\/php\/mpower.php": {
+        "401 - Accès non autorisé": "401 - Yetkisiz erişim",
         "Gestion": "Idare",
         "Ajouter": "Ekle",
         "Santé": "Sağlık",
-        "Mes Mpowers": "Mpowerlerim",
+        "Mes Mpowers": "",
         "Rechercher": "Arayın",
         "Configuration avancée": "Gelişmiş ayarlar",
         "Dupliquer": "Kopyala",
@@ -30,17 +24,31 @@
         "Objet parent": "Üst nesne",
         "Aucun": "Hiçbir",
         "Catégorie": "Kategori",
-        "Activer": "Etkinleştirmek",
+        "Activer": "Etkinleştir",
         "Visible": "Görülebilir",
         "Adresse IP": "IP adresi",
-        "Login": "Rumuz",
+        "Login": "",
         "Mot de passe": "Şifre",
-        "Numéro de prise": "Priz  numarası",
+        "Numéro de prise": "",
         "Nom": "İsim",
         "Options": "Opsiyonlar",
-        "Action": "Etki"
+        "Action": "Eylem"
     },
-    "core\/class\/mpower.class.php": {
-        "Plugin pour controller les équipements Mpower": "Mpower ekipmanlarını kontrol etmek için eklenti"
+    "plugins\/mpower\/desktop\/js\/mpower.js": {
+        "Santé Mpower": "",
+        "Afficher": "Göster",
+        "Historiser": "Tarihe göre sırala",
+        "Tester": "Test et"
+    },
+    "plugins\/mpower\/core\/class\/mpower.class.php": {
+        "Etat": "Durum",
+        "Puissance": "Güç",
+        "Voltage": "",
+        "Courant": "",
+        "Consommation": "",
+        "Facteur Puissance": "",
+        "On": "",
+        "Off": "",
+        "Rafraichir": "Yenile"
     }
 }

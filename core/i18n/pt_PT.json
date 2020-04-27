@@ -1,46 +1,54 @@
 {
-    "desktop\/modal\/health.php": {
-        "Image": "Image",
-        "Module": "Module",
-        "ID": "ID",
-        "IP": "IP",
-        "Modèle": "modelo",
-        "Date création": "Date création"
+    "plugins\/mpower\/desktop\/modal\/health.php": {
+        "Image": "Imagem",
+        "Module": "",
+        "ID": "",
+        "IP": "",
+        "Modèle": "Modelo",
+        "Date création": ""
     },
-    "desktop\/js\/mpower.js": {
-        "Santé Mpower": "saúde Mpower",
-        "Afficher": "display",
-        "Historiser": "historicizar",
-        "Tester": "teste"
-    },
-    "desktop\/php\/mpower.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
-        "Gestion": "gestão",
-        "Ajouter": "adicionar",
-        "Santé": "saúde",
-        "Mes Mpowers": "meus Mpowers",
-        "Rechercher": "Pesquisar",
-        "Configuration avancée": "configuração avançada",
-        "Dupliquer": "duplicar",
+    "plugins\/mpower\/desktop\/php\/mpower.php": {
+        "401 - Accès non autorisé": "401 - Acesso não autorizado",
+        "Gestion": "Gestão",
+        "Ajouter": "Adicionar",
+        "Santé": "Saúde",
+        "Mes Mpowers": "",
+        "Rechercher": "Pesquisa",
+        "Configuration avancée": "Configuração avançada",
+        "Dupliquer": "Duplicar",
         "Sauvegarder": "Salvar",
-        "Supprimer": "remover",
+        "Supprimer": "Remover",
         "Equipement": "Equipamento",
-        "Commandes": "comandos",
+        "Commandes": "Comandos",
         "Nom de l'équipement": "Nome de equipamentos",
-        "Objet parent": "objeto pai",
+        "Objet parent": "Objeto pai",
         "Aucun": "Nemhum",
-        "Catégorie": "categoria",
+        "Catégorie": "Categoria",
         "Activer": "Ativar",
         "Visible": "Visivél",
         "Adresse IP": "Endereço IP",
-        "Login": "login",
-        "Mot de passe": "senha",
-        "Numéro de prise": "apanhe",
+        "Login": "",
+        "Mot de passe": "Senha",
+        "Numéro de prise": "",
         "Nom": "Nome",
-        "Options": "opções",
-        "Action": "ação"
+        "Options": "Opções",
+        "Action": "Ação"
     },
-    "core\/class\/mpower.class.php": {
-        "Plugin pour controller les équipements Mpower": "Plugin para o equipamento Mpower controlador"
+    "plugins\/mpower\/desktop\/js\/mpower.js": {
+        "Santé Mpower": "",
+        "Afficher": "Display",
+        "Historiser": "Historicizar",
+        "Tester": "Teste"
+    },
+    "plugins\/mpower\/core\/class\/mpower.class.php": {
+        "Etat": "Estado",
+        "Puissance": "Poder",
+        "Voltage": "",
+        "Courant": "",
+        "Consommation": "",
+        "Facteur Puissance": "",
+        "On": "",
+        "Off": "Fora",
+        "Rafraichir": "Legal"
     }
 }

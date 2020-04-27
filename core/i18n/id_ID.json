@@ -1,27 +1,21 @@
 {
-    "desktop\/modal\/health.php": {
-        "Image": "Image",
-        "Module": "Module",
-        "ID": "ID",
-        "IP": "IP",
+    "plugins\/mpower\/desktop\/modal\/health.php": {
+        "Image": "Gambar",
+        "Module": "",
+        "ID": "",
+        "IP": "",
         "Modèle": "Model",
-        "Date création": "Date création"
+        "Date création": ""
     },
-    "desktop\/js\/mpower.js": {
-        "Santé Mpower": "kesehatan Mpower",
-        "Afficher": "Memenitikan",
-        "Historiser": "Historicize",
-        "Tester": "Coba"
-    },
-    "desktop\/php\/mpower.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
+    "plugins\/mpower\/desktop\/php\/mpower.php": {
+        "401 - Accès non autorisé": "401 - Akses tidak sah",
         "Gestion": "Manajemen",
         "Ajouter": "Tambahan",
         "Santé": "Bidang Kesehatan",
-        "Mes Mpowers": "Mpowers saya",
-        "Rechercher": "Mencari",
-        "Configuration avancée": "konfigurasi lanjutan",
-        "Dupliquer": "duplikat",
+        "Mes Mpowers": "",
+        "Rechercher": "Pencarian",
+        "Configuration avancée": "Konfigurasi lanjutan",
+        "Dupliquer": "Duplikat",
         "Sauvegarder": "Menyimpan",
         "Supprimer": "Menghapus",
         "Equipement": "Peralatan",
@@ -33,14 +27,28 @@
         "Activer": "Mengaktifkan",
         "Visible": "Terlihat",
         "Adresse IP": "IP Address",
-        "Login": "Login",
+        "Login": "",
         "Mot de passe": "Password",
-        "Numéro de prise": "mengambil nomor",
+        "Numéro de prise": "",
         "Nom": "Nama",
         "Options": "Pilihan",
         "Action": "Tindakan"
     },
-    "core\/class\/mpower.class.php": {
-        "Plugin pour controller les équipements Mpower": "Plugin untuk kontroler peralatan Mpower"
+    "plugins\/mpower\/desktop\/js\/mpower.js": {
+        "Santé Mpower": "",
+        "Afficher": "Memenitikan",
+        "Historiser": "Historicize",
+        "Tester": "Coba"
+    },
+    "plugins\/mpower\/core\/class\/mpower.class.php": {
+        "Etat": "Negara",
+        "Puissance": "Kekuasaan",
+        "Voltage": "",
+        "Courant": "",
+        "Consommation": "",
+        "Facteur Puissance": "",
+        "On": "",
+        "Off": "",
+        "Rafraichir": "Dingin"
     }
 }

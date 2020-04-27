@@ -1,27 +1,21 @@
 {
-    "desktop\/modal\/health.php": {
-        "Image": "Image",
-        "Module": "Module",
-        "ID": "ID",
-        "IP": "IP",
+    "plugins\/mpower\/desktop\/modal\/health.php": {
+        "Image": "画像",
+        "Module": "",
+        "ID": "",
+        "IP": "",
         "Modèle": "モデル",
-        "Date création": "Date création"
+        "Date création": ""
     },
-    "desktop\/js\/mpower.js": {
-        "Santé Mpower": "健康MPOWER",
-        "Afficher": "ディスプレイ",
-        "Historiser": "historicize",
-        "Tester": "テスト"
-    },
-    "desktop\/php\/mpower.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
+    "plugins\/mpower\/desktop\/php\/mpower.php": {
+        "401 - Accès non autorisé": "401-不正アクセス",
         "Gestion": "管理",
         "Ajouter": "加えます",
         "Santé": "健康",
-        "Mes Mpowers": "私Mpowers",
-        "Rechercher": "検索する",
-        "Configuration avancée": "高度な設定",
-        "Dupliquer": "複写",
+        "Mes Mpowers": "",
+        "Rechercher": "検索",
+        "Configuration avancée": "高度な構成",
+        "Dupliquer": "重複",
         "Sauvegarder": "セーブ",
         "Supprimer": "取り除きます",
         "Equipement": "設備",
@@ -30,17 +24,31 @@
         "Objet parent": "親オブジェクト",
         "Aucun": "何でもありません",
         "Catégorie": "カテゴリ",
-        "Activer": "アクティブにし",
+        "Activer": "アクティブ",
         "Visible": "目に見えます",
         "Adresse IP": "IPアドレス",
-        "Login": "ログイン",
+        "Login": "",
         "Mot de passe": "パスワード",
-        "Numéro de prise": "番号札を取ります",
+        "Numéro de prise": "",
         "Nom": "表題",
         "Options": "オプション",
         "Action": "アクション"
     },
-    "core\/class\/mpower.class.php": {
-        "Plugin pour controller les équipements Mpower": "コントローラMPOWER機器用プラグイン"
+    "plugins\/mpower\/desktop\/js\/mpower.js": {
+        "Santé Mpower": "",
+        "Afficher": "ディスプレイ",
+        "Historiser": "Historicize",
+        "Tester": "テスト"
+    },
+    "plugins\/mpower\/core\/class\/mpower.class.php": {
+        "Etat": "状態",
+        "Puissance": "パワー",
+        "Voltage": "",
+        "Courant": "",
+        "Consommation": "",
+        "Facteur Puissance": "",
+        "On": "",
+        "Off": "オフ",
+        "Rafraichir": "クール"
     }
 }

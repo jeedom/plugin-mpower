@@ -1,5 +1,5 @@
 {
-    "desktop\/modal\/health.php": {
+    "plugins\/mpower\/desktop\/modal\/health.php": {
         "Image": "Picture",
         "Module": "Module",
         "ID": "ID",
@@ -7,48 +7,48 @@
         "Modèle": "Model",
         "Date création": "Creation Date"
     },
-    "desktop\/js\/mpower.js": {
-        "Santé Mpower": "Mpower health",
-        "Afficher": "Show",
-        "Historiser": "Historize",
-        "Tester": "Test"
-    },
-    "desktop\/php\/mpower.php": {
+    "plugins\/mpower\/desktop\/php\/mpower.php": {
         "401 - Accès non autorisé": "401 - Unauthorized access",
         "Gestion": "Management",
         "Ajouter": "Add",
         "Santé": "Health",
-        "Mes Mpowers": "My Mpowers",
+        "Mes Mpowers": "",
         "Rechercher": "Search",
         "Configuration avancée": "Advanced configuration",
         "Dupliquer": "Duplicate",
         "Sauvegarder": "Save",
         "Supprimer": "Delete",
-        "Equipement": "Device",
+        "Equipement": "Equipment",
         "Commandes": "Commands",
-        "Nom de l'équipement": "Device name",
+        "Nom de l'équipement": "Name of equipment",
         "Objet parent": "Parent object",
         "Aucun": "None",
         "Catégorie": "Category",
         "Activer": "Activate",
         "Visible": "Visible",
-        "Adresse IP": "IP Address",
+        "Adresse IP": "IP adress",
         "Login": "Login",
         "Mot de passe": "Password",
-        "Numéro de prise": "Take number",
+        "Numéro de prise": "",
         "Nom": "Name",
-        "Options": "options",
+        "Options": "Options",
         "Action": "Action"
     },
-    "core\/class\/mpower.class.php": {
+    "plugins\/mpower\/desktop\/js\/mpower.js": {
+        "Santé Mpower": "",
+        "Afficher": "Show",
+        "Historiser": "Historize",
+        "Tester": "Test"
+    },
+    "plugins\/mpower\/core\/class\/mpower.class.php": {
         "Etat": "State",
         "Puissance": "Power",
-        "Voltage": "Voltage",
-        "Courant": "Current",
+        "Voltage": "",
+        "Courant": "",
         "Consommation": "Consumption",
-        "Facteur Puissance": "Power factor",
+        "Facteur Puissance": "",
         "On": "We",
-        "Off": "off",
+        "Off": "Off",
         "Rafraichir": "Refresh"
     }
 }

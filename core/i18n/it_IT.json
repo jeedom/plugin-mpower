@@ -1,29 +1,23 @@
 {
-    "desktop\/modal\/health.php": {
-        "Image": "Image",
-        "Module": "Module",
-        "ID": "ID",
-        "IP": "IP",
+    "plugins\/mpower\/desktop\/modal\/health.php": {
+        "Image": "Immagine",
+        "Module": "",
+        "ID": "",
+        "IP": "",
         "Modèle": "Modello",
-        "Date création": "Date création"
+        "Date création": ""
     },
-    "desktop\/js\/mpower.js": {
-        "Santé Mpower": "salute Mpower",
-        "Afficher": "Mostra",
-        "Historiser": "Storicizza",
-        "Tester": "Prova"
-    },
-    "desktop\/php\/mpower.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
+    "plugins\/mpower\/desktop\/php\/mpower.php": {
+        "401 - Accès non autorisé": "401 - Accesso non autorizzato",
         "Gestion": "Gestione",
         "Ajouter": "Aggiungi",
         "Santé": "Salute",
-        "Mes Mpowers": "i miei Mpowers",
-        "Rechercher": "Cerca",
+        "Mes Mpowers": "",
+        "Rechercher": "Ricercare",
         "Configuration avancée": "Configurazione avanzata",
-        "Dupliquer": "Duplica",
+        "Dupliquer": "Duplicato",
         "Sauvegarder": "Salva",
-        "Supprimer": "Elimina",
+        "Supprimer": "Rimuovere",
         "Equipement": "Dispositivo",
         "Commandes": "Comandi",
         "Nom de l'équipement": "Nome dispositivo",
@@ -33,14 +27,28 @@
         "Activer": "Attivare",
         "Visible": "Visibile",
         "Adresse IP": "Indirizzo IP",
-        "Login": "Login",
+        "Login": "",
         "Mot de passe": "Password",
-        "Numéro de prise": "prendere il numero",
+        "Numéro de prise": "",
         "Nom": "Nome",
         "Options": "Opzioni",
         "Action": "Azione"
     },
-    "core\/class\/mpower.class.php": {
-        "Plugin pour controller les équipements Mpower": "Plugin per il controllore attrezzature Mpower"
+    "plugins\/mpower\/desktop\/js\/mpower.js": {
+        "Santé Mpower": "",
+        "Afficher": "Mostra",
+        "Historiser": "Storicizza",
+        "Tester": "Prova"
+    },
+    "plugins\/mpower\/core\/class\/mpower.class.php": {
+        "Etat": "Stato",
+        "Puissance": "Potere",
+        "Voltage": "",
+        "Courant": "",
+        "Consommation": "",
+        "Facteur Puissance": "",
+        "On": "",
+        "Off": "",
+        "Rafraichir": "Aggiorna"
     }
 }
