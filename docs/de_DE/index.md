@@ -1,13 +1,13 @@
 Beschreibung 
 ===========
 
-. 
- :
+Mit diesem Plugin können Sie Ihre Mpower-Mehrfachbuchsen steuern. Das Widget erlaubt
+siehe alle Infos :
 
+Zustand Stromverbrauch Stromspannung und Leistungsfaktor
 
-
-
-
+Die Daten werden alle 15 Minuten und nach einer Aktion aktualisiert
+von jeedom
 
 Plugin Konfiguration 
 =======================
@@ -18,31 +18,31 @@ Auf dieser Ebene gibt es keine Konfiguration.
 Gerätekonfiguration 
 =============================
 
-
-
+Gehen Sie zum Menü Plugins / Energie, dort finden Sie das Plugin
+Mpower
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **** : ,
+-   **Gerätename Modus** : Name Ihres Gerätemodus,
 
 -   **Übergeordnetes Objekt** : gibt das übergeordnete Objekt an, zu dem es gehört
     Ausrüstung,
 
--   **Aktivieren** : macht Ihre Ausrüstung aktiv,
+-   **Activer** : macht Ihre Ausrüstung aktiv,
 
--   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
+-   **Visible** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
 
 -   **Kategorie** : Gerätekategorien (es kann gehören
     mehrere Kategorien).
 
--   **IP-Adresse** : 
+-   **IP-Adresse** : Socket-IP-Adresse
 
--   **Login** : 
+-   **Login** : Login Login (Standard ubnt)
 
--   **Passwort** : 
+-   **Passwort** : Passwort (Standard ubnt)
 
--   **** : 
+-   **Nimm die Nummer** : Steckdosenummer (beginnt bei 1)
 
-> **Notiz**
+> **Note**
 >
-> 
+> Pro Steckdose muss ein Gerät mitgenommen werden

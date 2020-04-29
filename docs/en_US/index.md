@@ -1,13 +1,13 @@
 Description 
 ===========
 
-. 
- :
+This plugin allows you to control your Mpower multiple sockets. The widget allows
+see all the info :
 
+State Power Consumption Current Voltage and Power Factor
 
-
-
-
+Data is refreshed every 15 minutes and after an action
+from jeedom
 
 Plugin configuration 
 =======================
@@ -18,31 +18,31 @@ there is no configuration at this level.
 Equipment configuration 
 =============================
 
-
-
+Go to the Plugins / Energy menu, you will find the plugin
+Mpower
 
 Here you find all the configuration of your equipment :
 
--   **Mode equipment name** : ,
+-   **Mode equipment name** : name of your equipment Mode,
 
 -   **Parent object** : indicates the parent object to which belongs
     equipment,
 
--   **Activate** : makes your equipment active,
+-   **Activer** : makes your equipment active,
 
 -   **Visible** : makes your equipment visible on the dashboard,
 
 -   **Category** : equipment categories (it may belong to
     multiple categories).
 
--   **IP adress** : 
+-   **IP adress** : socket IP address
 
--   **Login** : 
+-   **Login** : login login (default ubnt)
 
--   **Password** : 
+-   **Password** : password (default ubnt)
 
--   **** : 
+-   **Take number** : outlet number (starts at 1)
 
-> **NOTE**
+> **Note**
 >
-> 
+> One equipment must be taken per outlet
