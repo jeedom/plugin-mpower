@@ -16,14 +16,14 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
 -   **Gerätename Modus** : Name Ihres Gerätemodus,
 -   **Übergeordnetes Objekt** : Gibt das übergeordnete Objekt an, zu dem das Gerät gehört,
--   **Activer** : macht Ihre Ausrüstung aktiv,
--   **Visible** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv,
+-   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
 -   **Kategorie** : Gerätekategorien (es kann zu mehreren Kategorien gehören).
 -   **IP-Adresse** : Socket-IP-Adresse
 -   **Login** : Login Login (Standard ubnt)
 -   **Passwort** : Passwort (Standard ubnt)
 -   **Nimm die Nummer** : Steckdosenummer (beginnt bei 1)
 
-> **Note**
+> **Notiz**
 >
 > Pro Steckdose muss ein Gerät mitgenommen werden

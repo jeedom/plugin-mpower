@@ -16,7 +16,7 @@ Aquí encontrarás toda la configuración de tu equipo :
 
 -   **Nombre del equipo Modo** : nombre de su equipo Modo,
 -   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
--   **Activer** : activa su equipo,
+-   **Activar** : activa su equipo,
 -   **Visible** : hace que su equipo sea visible en el tablero,
 -   **Categoría** : categorías de equipos (puede pertenecer a varias categorías).
 -   **Dirección IP** : dirección IP de socket
@@ -24,6 +24,6 @@ Aquí encontrarás toda la configuración de tu equipo :
 -   **Contraseña** : contraseña (ubnt predeterminada)
 -   **Toma el número** : número de salida (comienza en 1)
 
-> **Note**
+> **Nota**
 >
 > Se debe llevar un equipo por tomacorriente

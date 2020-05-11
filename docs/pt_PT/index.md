@@ -16,14 +16,14 @@ Aqui você encontra toda a configuração do seu equipamento :
 
 -   **Nome do equipamento Modo** : nome do seu equipamento Mode,
 -   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
--   **Activer** : torna seu equipamento ativo,
--   **Visible** : torna seu equipamento visível no painel,
+-   **Ativar** : torna seu equipamento ativo,
+-   **Visivél** : torna seu equipamento visível no painel,
 -   **Categoria** : categorias de equipamentos (pode pertencer a várias categorias).
 -   **Endereço IP** : endereço IP do soquete
--   **Login** : login login (ubnt padrão)
+-   **Entrar** : login login (ubnt padrão)
 -   **Senha** : senha (ubnt padrão)
 -   **Take number** : número da tomada (começa em 1)
 
-> **Note**
+> **NOTA**
 >
 > Um equipamento deve ser tomado por tomada

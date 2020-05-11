@@ -16,7 +16,7 @@ Here you find all the configuration of your equipment :
 
 -   **Mode equipment name** : name of your equipment Mode,
 -   **Parent object** : indicates the parent object to which the equipment belongs,
--   **Activer** : makes your equipment active,
+-   **Activate** : makes your equipment active,
 -   **Visible** : makes your equipment visible on the dashboard,
 -   **Category** : equipment categories (it can belong to several categories).
 -   **IP adress** : socket IP address
@@ -24,6 +24,6 @@ Here you find all the configuration of your equipment :
 -   **Password** : password (default ubnt)
 -   **Take number** : outlet number (starts at 1)
 
-> **Note**
+> **NOTE**
 >
 > One equipment must be taken per outlet

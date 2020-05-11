@@ -1,11 +1,13 @@
 {
     "changelog.md": {
-        "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto.",
+        "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "Como recordatorio si no hay información sobre la actualización, significa que solo se refiere a la actualización de documentación, traducción o texto",
         " IMPORTANT.": " Importante.",
         " IMPORTANT?": " Importante?",
         "IMPORTANT ": "Importante ",
         "[IMPORTANT": "[Importante",
-        "IMPORTANT]": "Importante]"
+        "IMPORTANT]": "Importante]",
+        "*IMPORTANT": "*Importante",
+        "IMPORTANT*": "Importante*"
     },
     "index.md": {
         "Plugin Mpower": "Complemento Mpower",
@@ -39,20 +41,28 @@
         "Activer ": "Activar ",
         "[Activer": "[Activar",
         "Activer]": "Activar]",
+        "*Activer": "*Activar",
+        "Activer*": "Activar*",
         " Visible.": " Visible.",
         " Visible?": " Visible?",
         "Visible ": "Visible ",
         "[Visible": "[Visible",
         "Visible]": "Visible]",
+        "*Visible": "*Visible",
+        "Visible*": "Visible*",
         " Login.": " Login.",
         " Login?": " Login?",
         "Login ": "Login ",
         "[Login": "[Login",
         "Login]": "Login]",
+        "*Login": "*Login",
+        "Login*": "Login*",
         " Note.": " Nota.",
         " Note?": " Nota?",
         "Note ": "Nota ",
         "[Note": "[Nota",
-        "Note]": "Nota]"
+        "Note]": "Nota]",
+        "*Note": "*Nota",
+        "Note*": "Nota*"
     }
 }
