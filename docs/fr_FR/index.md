@@ -1,14 +1,12 @@
 # Plugin Mpower
 
-Ce plugin permet de contrôler vos multiprises Mpower. Le widget permetde voir toutes les infos :
+Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : Etat Puissance Consommation Courant Voltage et Facteur de puissance
 
-Etat Puissance Consommation Courant Voltage et Facteur de puissance
-
-Les données sont rafraîchies toutes les 15 minutes et après une actiondepuis jeedom
+Les données sont rafraîchies toutes les 15 minutes et après une action depuis jeedom
 
 # Configuration du plugin
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,il n’y a aucune configuration à ce niveau.
+Après téléchargement du plugin, il vous suffit juste d’activer celui-ci, il n’y a aucune configuration à ce niveau.
 
 # Configuration des équipements
 
