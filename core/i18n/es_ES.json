@@ -50,5 +50,8 @@
         "On": "Uno",
         "Off": "Apagado",
         "Rafraichir": "Refrescar"
+    },
+    "info.json": {
+        "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : Etat Puissance Consommation Courant Voltage Et facteur de puissance Les données sont rafraichies toutes les minutes et après une action depuis jeedom Uniquement testé sur le modèle 6 prises": "Este complemento le permite controlar sus múltiples sockets Mpower. El widget le permite ver toda la información: Consumo de energía del estado Voltaje de corriente y factor de potencia Los datos se actualizan cada minuto y después de una acción de jeedom Solo probado en el modelo de 6 sockets"
     }
 }
