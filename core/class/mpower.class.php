@@ -1,20 +1,20 @@
 <?php
 
 /* This file is part of Jeedom.
- *
- * Jeedom is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * Jeedom is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
- */
+*
+* Jeedom is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* Jeedom is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
+*/
 
 /* * ***************************Includes********************************* */
 require_once dirname(__FILE__) . '/../../../../core/php/core.inc.php';
@@ -23,29 +23,29 @@ class mpower extends eqLogic {
 	/*     * *************************Attributs****************************** */
 	public static $_widgetPossibility = array('custom' => true);
 	private static $_mpowers = null;
-
+	
 	/*     * ***********************Methode static*************************** */
-
+	
 	public static function cron($_eqlogic_id = null) {
 		$eqLogics = ($_eqlogic_id !== null) ? array(eqLogic::byId($_eqlogic_id)) : eqLogic::byType('mpower', true);
 		foreach ($eqLogics as $mpower) {
 			try {
 				$mpower->getmpowerInfo();
 			} catch (Exception $e) {
-
+				
 			}
 		}
 		foreach ($eqLogics as $mpower) {
 			try {
 				$mpower->disconnect();
 			} catch (Exception $e) {
-
+				
 			}
 		}
 	}
-
+	
 	/*     * *********************Méthodes d'instance************************* */
-
+	
 	public function getmpowerInfo() {
 		if (!is_array(self::$_mpowers) || !isset(self::$_mpowers[$this->getConfiguration('addr')]) || !isset(self::$_mpowers[$this->getConfiguration('addr')]['infos']) || !is_array(self::$_mpowers[$this->getConfiguration('addr')])) {
 			$cmd = 'curl -s -b "AIROS_SESSIONID=' . $this->connect() . '" ' . $this->getConfiguration('addr') . '/sensors';
@@ -67,11 +67,11 @@ class mpower extends eqLogic {
 			$this->checkAndUpdateCmd('energy', round($sensor['energy'] / 1000, 2));
 		}
 	}
-
+	
 	public function preInsert() {
 		$this->setCategory('energy', 1);
 	}
-
+	
 	public function postSave() {
 		$cmd = $this->getCmd(null, 'etat');
 		if (!is_object($cmd)) {
@@ -86,7 +86,7 @@ class mpower extends eqLogic {
 		$cmd->setEqLogic_id($this->getId());
 		$cmd->save();
 		$cmdid = $cmd->getId();
-
+		
 		$cmd = $this->getCmd(null, 'power');
 		if (!is_object($cmd)) {
 			$cmd = new mpowerCmd();
@@ -102,7 +102,7 @@ class mpower extends eqLogic {
 		$cmd->setSubType('numeric');
 		$cmd->setEqLogic_id($this->getId());
 		$cmd->save();
-
+		
 		$cmd = $this->getCmd(null, 'voltage');
 		if (!is_object($cmd)) {
 			$cmd = new mpowerCmd();
@@ -117,7 +117,7 @@ class mpower extends eqLogic {
 		$cmd->setSubType('numeric');
 		$cmd->setEqLogic_id($this->getId());
 		$cmd->save();
-
+		
 		$cmd = $this->getCmd(null, 'current');
 		if (!is_object($cmd)) {
 			$cmd = new mpowerCmd();
@@ -132,7 +132,7 @@ class mpower extends eqLogic {
 		$cmd->setSubType('numeric');
 		$cmd->setEqLogic_id($this->getId());
 		$cmd->save();
-
+		
 		$cmd = $this->getCmd(null, 'energy');
 		if (!is_object($cmd)) {
 			$cmd = new mpowerCmd();
@@ -147,7 +147,7 @@ class mpower extends eqLogic {
 		$cmd->setSubType('numeric');
 		$cmd->setEqLogic_id($this->getId());
 		$cmd->save();
-
+		
 		$cmd = $this->getCmd(null, 'powerfactor');
 		if (!is_object($cmd)) {
 			$cmd = new mpowerCmd();
@@ -161,7 +161,7 @@ class mpower extends eqLogic {
 		$cmd->setSubType('numeric');
 		$cmd->setEqLogic_id($this->getId());
 		$cmd->save();
-
+		
 		$cmd = $this->getCmd(null, 'on');
 		if (!is_object($cmd)) {
 			$cmd = new mpowerCmd();
@@ -177,7 +177,7 @@ class mpower extends eqLogic {
 		$cmd->setEqLogic_id($this->getId());
 		$cmd->setValue($cmdid);
 		$cmd->save();
-
+		
 		$cmd = $this->getCmd(null, 'off');
 		if (!is_object($cmd)) {
 			$cmd = new mpowerCmd();
@@ -193,7 +193,7 @@ class mpower extends eqLogic {
 		$cmd->setEqLogic_id($this->getId());
 		$cmd->setValue($cmdid);
 		$cmd->save();
-
+		
 		$cmd = $this->getCmd(null, 'refresh');
 		if (!is_object($cmd)) {
 			$cmd = new mpowerCmd();
@@ -206,7 +206,18 @@ class mpower extends eqLogic {
 		$cmd->setEqLogic_id($this->getId());
 		$cmd->save();
 	}
-
+	
+	public function decrypt(){
+		$this->setConfiguration('user',utils::decrypt($this->getConfiguration('user')));
+		$this->setConfiguration('pwd',utils::decrypt($this->getConfiguration('pwd')));
+		$this->setConfiguration('addr',utils::decrypt($this->getConfiguration('addr')));
+	}
+	public function encrypt(){
+		$this->setConfiguration('user',utils::encrypt($this->getConfiguration('user')));
+		$this->setConfiguration('pwd',utils::encrypt($this->getConfiguration('pwd')));
+		$this->setConfiguration('addr',utils::encrypt($this->getConfiguration('addr')));
+	}
+	
 	public function connect() {
 		if (!is_array(self::$_mpowers) || !isset(self::$_mpowers[$this->getConfiguration('addr')])) {
 			self::$_mpowers[$this->getConfiguration('addr')] = array('sessid' => null, 'infos' => null);
@@ -221,7 +232,7 @@ class mpower extends eqLogic {
 		shell_exec('curl -X POST -d "username=' . $this->getConfiguration('user') . '&password=' . $this->getConfiguration('pwd') . '" -b "AIROS_SESSIONID=' . self::$_mpowers[$this->getConfiguration('addr')]['sessid'] . '" ' . $this->getConfiguration('addr') . '/login.cgi  2>&1 >> /dev/null');
 		return self::$_mpowers[$this->getConfiguration('addr')]['sessid'];
 	}
-
+	
 	public function disconnect() {
 		if (!is_array(self::$_mpowers) || !isset(self::$_mpowers[$this->getConfiguration('addr')]) || self::$_mpowers[$this->getConfiguration('addr')]['sessid'] == null) {
 			return;
@@ -233,11 +244,11 @@ class mpower extends eqLogic {
 
 class mpowerCmd extends cmd {
 	/*     * *************************Attributs****************************** */
-
+	
 	/*     * ***********************Methode static*************************** */
-
+	
 	/*     * *********************Methode d'instance************************* */
-
+	
 	public function execute($_options = null) {
 		$eqLogic = $this->getEqlogic();
 		if ($this->getLogicalId() == 'refresh') {
@@ -249,7 +260,7 @@ class mpowerCmd extends cmd {
 		$eqLogic->getmpowerInfo();
 		$eqLogic->disconnect();
 	}
-
+	
 	/*     * **********************Getteur Setteur*************************** */
 }
 ?>
