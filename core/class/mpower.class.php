@@ -208,14 +208,10 @@ class mpower extends eqLogic {
 	}
 	
 	public function decrypt(){
-		$this->setConfiguration('user',utils::decrypt($this->getConfiguration('user')));
 		$this->setConfiguration('pwd',utils::decrypt($this->getConfiguration('pwd')));
-		$this->setConfiguration('addr',utils::decrypt($this->getConfiguration('addr')));
 	}
 	public function encrypt(){
-		$this->setConfiguration('user',utils::encrypt($this->getConfiguration('user')));
 		$this->setConfiguration('pwd',utils::encrypt($this->getConfiguration('pwd')));
-		$this->setConfiguration('addr',utils::encrypt($this->getConfiguration('addr')));
 	}
 	
 	public function connect() {
