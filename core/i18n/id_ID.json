@@ -20,18 +20,20 @@
         "Supprimer": "Menghapus",
         "Equipement": "Peralatan",
         "Commandes": "Perintah",
+        "Général": "Umum",
         "Nom de l'équipement": "Nama peralatan",
         "Objet parent": "Objek induk",
         "Aucun": "Tak ada",
         "Catégorie": "Kategori",
+        "Options": "Pilihan",
         "Activer": "Mengaktifkan",
         "Visible": "Terlihat",
+        "Paramètres": "Parameter²",
         "Adresse IP": "IP Address",
         "Login": "",
         "Mot de passe": "Password",
         "Numéro de prise": "",
         "Nom": "Nama",
-        "Options": "Pilihan",
         "Action": "Tindakan"
     },
     "plugins\/mpower\/desktop\/js\/mpower.js": {
@@ -52,6 +54,6 @@
         "Rafraichir": "Dingin"
     },
     "info.json": {
-        "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : Etat Puissance Consommation Courant Voltage Et facteur de puissance Les données sont rafraichies toutes les minutes et après une action depuis jeedom Uniquement testé sur le modèle 6 prises": ""
+        "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : état, puissance, consommation, courant, voltage et facteur de puissance. Les données sont rafraichies toutes les minutes et après une action depuis jeedom. Uniquement testé avec le modèle 6 prises.": ""
     }
 }

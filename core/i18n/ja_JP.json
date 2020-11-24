@@ -20,18 +20,20 @@
         "Supprimer": "取り除きます",
         "Equipement": "設備",
         "Commandes": "コマンド",
+        "Général": "コモン",
         "Nom de l'équipement": "機器の名前",
         "Objet parent": "親オブジェクト",
         "Aucun": "何でもありません",
         "Catégorie": "カテゴリ",
+        "Options": "オプション",
         "Activer": "アクティブ",
         "Visible": "目に見えます",
+        "Paramètres": "設定",
         "Adresse IP": "IPアドレス",
         "Login": "",
         "Mot de passe": "パスワード",
         "Numéro de prise": "",
         "Nom": "表題",
-        "Options": "オプション",
         "Action": "アクション"
     },
     "plugins\/mpower\/desktop\/js\/mpower.js": {
@@ -52,6 +54,6 @@
         "Rafraichir": "クール"
     },
     "info.json": {
-        "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : Etat Puissance Consommation Courant Voltage Et facteur de puissance Les données sont rafraichies toutes les minutes et après une action depuis jeedom Uniquement testé sur le modèle 6 prises": ""
+        "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : état, puissance, consommation, courant, voltage et facteur de puissance. Les données sont rafraichies toutes les minutes et après une action depuis jeedom. Uniquement testé avec le modèle 6 prises.": ""
     }
 }

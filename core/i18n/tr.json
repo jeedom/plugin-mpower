@@ -20,18 +20,20 @@
         "Supprimer": "Sil",
         "Equipement": "Cihaz",
         "Commandes": "Komutalar",
+        "Général": "Genel",
         "Nom de l'équipement": "Ekipman ismi",
         "Objet parent": "Üst nesne",
         "Aucun": "Hiçbir",
         "Catégorie": "Kategori",
+        "Options": "Opsiyonlar",
         "Activer": "Etkinleştir",
         "Visible": "Görülebilir",
+        "Paramètres": "Ayarlar ( Séçenekler )",
         "Adresse IP": "IP adresi",
         "Login": "",
         "Mot de passe": "Şifre",
         "Numéro de prise": "",
         "Nom": "İsim",
-        "Options": "Opsiyonlar",
         "Action": "Eylem"
     },
     "plugins\/mpower\/desktop\/js\/mpower.js": {
@@ -52,6 +54,6 @@
         "Rafraichir": "Yenile"
     },
     "info.json": {
-        "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : Etat Puissance Consommation Courant Voltage Et facteur de puissance Les données sont rafraichies toutes les minutes et après une action depuis jeedom Uniquement testé sur le modèle 6 prises": ""
+        "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : état, puissance, consommation, courant, voltage et facteur de puissance. Les données sont rafraichies toutes les minutes et après une action depuis jeedom. Uniquement testé avec le modèle 6 prises.": ""
     }
 }

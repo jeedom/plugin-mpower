@@ -20,18 +20,20 @@
         "Supprimer": "Borrar",
         "Equipement": "Dispositivos",
         "Commandes": "Comandos",
+        "Général": "Principal",
         "Nom de l'équipement": "Nombre del equipo",
         "Objet parent": "Objeto padre",
         "Aucun": "Ninguna",
         "Catégorie": "Categoría",
+        "Options": "Opciones",
         "Activer": "Activar",
         "Visible": "Visible",
+        "Paramètres": "Configuraciones",
         "Adresse IP": "Dirección IP",
         "Login": "Login",
         "Mot de passe": "Contraseña",
         "Numéro de prise": "Toma el número",
         "Nom": "Nombre",
-        "Options": "Opciones",
         "Action": "Acción"
     },
     "plugins\/mpower\/desktop\/js\/mpower.js": {
@@ -52,6 +54,6 @@
         "Rafraichir": "Refrescar"
     },
     "info.json": {
-        "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : Etat Puissance Consommation Courant Voltage Et facteur de puissance Les données sont rafraichies toutes les minutes et après une action depuis jeedom Uniquement testé sur le modèle 6 prises": "Este complemento le permite controlar sus múltiples sockets Mpower. El widget le permite ver toda la información: Consumo de energía del estado Voltaje de corriente y factor de potencia Los datos se actualizan cada minuto y después de una acción de jeedom Solo probado en el modelo de 6 sockets"
+        "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : état, puissance, consommation, courant, voltage et facteur de puissance. Les données sont rafraichies toutes les minutes et après une action depuis jeedom. Uniquement testé avec le modèle 6 prises.": "Este complemento le permite controlar sus múltiples enchufes Mpower. El widget te permite ver toda la información: estado, potencia, consumo, corriente, voltaje y factor de potencia. Los datos se actualizan cada minuto y después de una acción de jeedom. Solo probado con el modelo de 6 enchufes"
     }
 }
