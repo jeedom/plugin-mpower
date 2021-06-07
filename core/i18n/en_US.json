@@ -20,18 +20,20 @@
         "Supprimer": "Delete",
         "Equipement": "Equipment",
         "Commandes": "Commands",
+        "Général": "Main",
         "Nom de l'équipement": "Name of equipment",
         "Objet parent": "Parent object",
         "Aucun": "None",
         "Catégorie": "Category",
+        "Options": "Options",
         "Activer": "Activate",
         "Visible": "Visible",
+        "Paramètres": "Settings",
         "Adresse IP": "IP adress",
         "Login": "Login",
         "Mot de passe": "Password",
         "Numéro de prise": "Take number",
         "Nom": "Name",
-        "Options": "Options",
         "Action": "Action"
     },
     "plugins\/mpower\/desktop\/js\/mpower.js": {
@@ -52,6 +54,6 @@
         "Rafraichir": "Refresh"
     },
     "info.json": {
-        "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : Etat Puissance Consommation Courant Voltage Et facteur de puissance Les données sont rafraichies toutes les minutes et après une action depuis jeedom Uniquement testé sur le modèle 6 prises": "This plugin allows you to control your Mpower multiple sockets. The widget allows you to see all the information: State Power Consumption Current Voltage And power factor The data are refreshed every minute and after an action from jeedom Only tested on the 6 socket model"
+        "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : état, puissance, consommation, courant, voltage et facteur de puissance. Les données sont rafraichies toutes les minutes et après une action depuis jeedom. Uniquement testé avec le modèle 6 prises.": "This plugin allows you to control your Mpower multiple sockets. The widget allows you to see all the information: status, power, consumption, current, voltage and power factor. The data is refreshed every minute and after an action from jeedom. Only tested with the 6 socket model"
     }
 }

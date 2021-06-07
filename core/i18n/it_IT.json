@@ -20,18 +20,20 @@
         "Supprimer": "Rimuovere",
         "Equipement": "Dispositivo",
         "Commandes": "Comandi",
+        "Général": "Principale",
         "Nom de l'équipement": "Nome dispositivo",
         "Objet parent": "Oggetto padre",
         "Aucun": "Nessuno",
         "Catégorie": "Categoria",
+        "Options": "Opzioni",
         "Activer": "Attivare",
         "Visible": "Visibile",
+        "Paramètres": "Impostazioni",
         "Adresse IP": "Indirizzo IP",
         "Login": "",
         "Mot de passe": "Password",
         "Numéro de prise": "",
         "Nom": "Nome",
-        "Options": "Opzioni",
         "Action": "Azione"
     },
     "plugins\/mpower\/desktop\/js\/mpower.js": {
@@ -52,6 +54,6 @@
         "Rafraichir": "Aggiorna"
     },
     "info.json": {
-        "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : Etat Puissance Consommation Courant Voltage Et facteur de puissance Les données sont rafraichies toutes les minutes et après une action depuis jeedom Uniquement testé sur le modèle 6 prises": ""
+        "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : état, puissance, consommation, courant, voltage et facteur de puissance. Les données sont rafraichies toutes les minutes et après une action depuis jeedom. Uniquement testé avec le modèle 6 prises.": ""
     }
 }
