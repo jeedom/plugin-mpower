@@ -2,8 +2,8 @@
     "plugins\/mpower\/desktop\/modal\/health.php": {
         "Image": "Gambar",
         "Module": "Modul",
-        "ID": "",
-        "IP": "",
+        "ID": "ID",
+        "IP": "IP",
         "Modèle": "Model",
         "Date création": "Tanggal pembuatan"
     },
@@ -12,7 +12,7 @@
         "Gestion": "Manajemen",
         "Ajouter": "Tambahan",
         "Santé": "Bidang Kesehatan",
-        "Mes Mpowers": "",
+        "Mes Mpowers": "Mes Mpowers",
         "Rechercher": "Pencarian",
         "Configuration avancée": "Konfigurasi lanjutan",
         "Dupliquer": "Duplikat",
@@ -30,14 +30,14 @@
         "Visible": "Terlihat",
         "Paramètres": "Parameter²",
         "Adresse IP": "IP Address",
-        "Login": "",
+        "Login": "Login",
         "Mot de passe": "Password",
-        "Numéro de prise": "",
+        "Numéro de prise": "Numéro de prise",
         "Nom": "Nama",
         "Action": "Tindakan"
     },
     "plugins\/mpower\/desktop\/js\/mpower.js": {
-        "Santé Mpower": "",
+        "Santé Mpower": "Santé Mpower",
         "Afficher": "Memenitikan",
         "Historiser": "Historicize",
         "Tester": "Coba"
@@ -45,15 +45,15 @@
     "plugins\/mpower\/core\/class\/mpower.class.php": {
         "Etat": "Negara",
         "Puissance": "Kekuasaan",
-        "Voltage": "",
-        "Courant": "",
-        "Consommation": "",
-        "Facteur Puissance": "",
-        "On": "",
-        "Off": "",
+        "Voltage": "Voltage",
+        "Courant": "Courant",
+        "Consommation": "Consommation",
+        "Facteur Puissance": "Facteur Puissance",
+        "On": "On",
+        "Off": "Off",
         "Rafraichir": "Dingin"
     },
     "info.json": {
-        "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : état, puissance, consommation, courant, voltage et facteur de puissance. Les données sont rafraichies toutes les minutes et après une action depuis jeedom. Uniquement testé avec le modèle 6 prises.": ""
+        "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : état, puissance, consommation, courant, voltage et facteur de puissance. Les données sont rafraichies toutes les minutes et après une action depuis jeedom. Uniquement testé avec le modèle 6 prises.": "Ce plugin permet de contrôler vos multiprises Mpower. Le widget permet de voir toutes les infos : état, puissance, consommation, courant, voltage et facteur de puissance. Les données sont rafraichies toutes les minutes et après une action depuis jeedom. Uniquement testé avec le modèle 6 prises"
     }
 }
