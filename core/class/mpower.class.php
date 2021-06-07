@@ -80,6 +80,7 @@ class mpower extends eqLogic {
 			$cmd->setName(__('Etat', __FILE__));
 			$cmd->setIsVisible(0);
 		}
+		$cmd->setConfiguration('repeatEventManagement','never');
 		$cmd->setType('info');
 		$cmd->setDisplay('generic_type', 'ENERGY_STATE');
 		$cmd->setSubType('binary');
